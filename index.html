@@ -1,0 +1,2575 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gems in Banda Neira — Pulau Kecil, Sejarah Raksasa | Visit Indonesia 2026</title>
+
+  <!-- Google Fonts: Playfair Display, Cormorant Garamond, Plus Jakarta Sans, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#0F2342',
+            teal: '#134E52',
+            vermilion: '#E84C22',
+            cerulean: '#1B75A6',
+            ochre: '#E2A027',
+            nutmeg: '#9A4929',
+            parchment: '#FAF7F2',
+            sand: '#F2ECE1',
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', '"Cormorant Garamond"', 'Georgia', 'serif'],
+            editorial: ['"Cormorant Garamond"', '"Playfair Display"', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          boxShadow: {
+            editorial: '0 20px 50px -15px rgba(15, 35, 66, 0.12)',
+            seal: '0 18px 38px -8px rgba(15, 35, 66, 0.35)',
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    /* Custom Editorial Grain & Subtle Utilities */
+    body {
+      background-color: #FAF7F2;
+      color: #0F2342;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* Subtle archival paper texture overlay */
+    .paper-texture {
+      background-image: radial-gradient(rgba(15, 35, 66, 0.04) 1px, transparent 0);
+      background-size: 24px 24px;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #FAF7F2;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #134E52;
+      border-radius: 9999px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #0F2342;
+    }
+
+    /* Scroll Reveal Animation */
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1), transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Animated pulse for archipelago map pins */
+    @keyframes pulseRing {
+      0% {
+        transform: scale(0.85);
+        opacity: 0.85;
+      }
+
+      70% {
+        transform: scale(2.1);
+        opacity: 0;
+      }
+
+      100% {
+        transform: scale(2.1);
+        opacity: 0;
+      }
+    }
+
+    .pin-pulse {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: pulseRing 2.4s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+    }
+
+    /* Gentle floating motion for hero emblem seal */
+    @keyframes floatSeal {
+
+      0%,
+      100% {
+        transform: translateY(0px) rotate(-2deg);
+      }
+
+      50% {
+        transform: translateY(-6px) rotate(1deg);
+      }
+    }
+
+    .seal-float {
+      animation: floatSeal 6s ease-in-out infinite;
+    }
+  </style>
+</head>
+
+<body class="antialiased selection:bg-ochre selection:text-navy">
+
+  <!-- =====================================================================
+       REUSABLE VECTOR SYMBOL: "GEMS IN BANDA NEIRA" PENTAGON BADGE LOGO
+       Derived faithfully from the official campaign pentagon emblem:
+       - Fort Belgica double-lined pentagon frame with 5 corner vertices
+       - Mount Api volcano with #E84C22 crater & lava streaks
+       - #1B75A6 ocean waves & #E84C22/#E2A027 sailboat
+       - Curved ribbon banner ("GEMS IN" in #0F2342) + "BANDA NEIRA" (#E84C22)
+       - #E2A027 4-point sparkles & three #9A4929 nutmegs at the base
+  ====================================================================== -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="hidden" aria-hidden="true">
+    <symbol id="gems-logo-badge" viewBox="0 0 320 310">
+      <!-- Outer White Shield Backing for Clean Contrast on Dark & Light Surfaces -->
+      <polygon points="160,14 302,116 248,284 72,284 18,116" fill="#FAF7F2" stroke="#0F2342" stroke-width="5"
+        stroke-linejoin="round" />
+      <!-- Inner Pentagon Line (Fort Belgica Geometry) -->
+      <polygon points="160,26 289,120 240,273 80,273 31,120" fill="none" stroke="#0F2342" stroke-width="2.5"
+        stroke-dasharray="95 8 110 8" stroke-linejoin="round" />
+
+      <!-- 5 Corner Bastion Dots -->
+      <g>
+        <circle cx="160" cy="14" r="6.5" fill="#FAF7F2" stroke="#0F2342" stroke-width="3" />
+        <circle cx="160" cy="14" r="2.2" fill="#E84C22" />
+
+        <circle cx="302" cy="116" r="6.5" fill="#FAF7F2" stroke="#0F2342" stroke-width="3" />
+        <circle cx="302" cy="116" r="2.2" fill="#E84C22" />
+
+        <circle cx="248" cy="284" r="6.5" fill="#FAF7F2" stroke="#0F2342" stroke-width="3" />
+        <circle cx="248" cy="284" r="2.2" fill="#E84C22" />
+
+        <circle cx="72" cy="284" r="6.5" fill="#FAF7F2" stroke="#0F2342" stroke-width="3" />
+        <circle cx="72" cy="284" r="2.2" fill="#E84C22" />
+
+        <circle cx="18" cy="116" r="6.5" fill="#FAF7F2" stroke="#0F2342" stroke-width="3" />
+        <circle cx="18" cy="116" r="2.2" fill="#E84C22" />
+      </g>
+
+      <!-- Volcanic Smoke Wisps -->
+      <path d="M153,61 C150,51 143,49 140,42" fill="none" stroke="#0F2342" stroke-width="2.6" stroke-linecap="round" />
+      <path d="M161,59 C161,48 168,45 167,36" fill="none" stroke="#0F2342" stroke-width="2.6" stroke-linecap="round" />
+      <path d="M168,62 C173,54 181,54 185,48" fill="none" stroke="#0F2342" stroke-width="2.4" stroke-linecap="round" />
+
+      <!-- Flanking Island Ridges & Mount Api Cone -->
+      <path d="M76,134 Q102,102 121,115" fill="none" stroke="#0F2342" stroke-width="3.5" stroke-linecap="round" />
+      <path d="M198,113 Q215,99 235,121" fill="none" stroke="#0F2342" stroke-width="3.5" stroke-linecap="round" />
+      <path d="M97,138 L146,74 Q160,70 174,74 L216,126" fill="#FAF7F2" stroke="#0F2342" stroke-width="3.8"
+        stroke-linejoin="round" />
+
+      <!-- Mount Api Crater & Lava Streaks (#E84C22) -->
+      <path d="M146,74 Q160,70 174,74 L182,85 L172,83 L166,90 L158,83 L149,88 L139,84 Z" fill="#E84C22" stroke="#0F2342"
+        stroke-width="2.4" stroke-linejoin="round" />
+      <line x1="150" y1="96" x2="140" y2="112" stroke="#E84C22" stroke-width="3.5" stroke-linecap="round" />
+      <line x1="160" y1="98" x2="155" y2="115" stroke="#E84C22" stroke-width="3.5" stroke-linecap="round" />
+      <line x1="173" y1="95" x2="184" y2="112" stroke="#E84C22" stroke-width="3.5" stroke-linecap="round" />
+      <line x1="146" y1="120" x2="155" y2="127" stroke="#E84C22" stroke-width="3.5" stroke-linecap="round" />
+
+      <!-- Banda Sea Rolling Wave (#1B75A6) -->
+      <path
+        d="M62,146 C95,152 122,135 148,136 C168,137 175,118 194,119 C203,120 205,127 199,130 C210,125 215,103 234,104 C254,105 267,125 272,143 L248,162 L66,162 Z"
+        fill="#1B75A6" stroke="#0F2342" stroke-width="3.2" stroke-linejoin="round" />
+
+      <!-- Traditional Spice Sailboat -->
+      <g transform="translate(82, 102)">
+        <!-- Mast & Pennant -->
+        <line x1="21" y1="6" x2="21" y2="35" stroke="#0F2342" stroke-width="2.8" stroke-linecap="round" />
+        <polygon points="21,6 10,10 21,14" fill="#E84C22" stroke="#0F2342" stroke-width="2" stroke-linejoin="round" />
+        <!-- Ochre Gold Sails -->
+        <path d="M19,15 Q7,23 5,33 L19,32 Z" fill="#E2A027" stroke="#0F2342" stroke-width="2.3"
+          stroke-linejoin="round" />
+        <path d="M23,13 Q37,20 40,30 L23,32 Z" fill="#E2A027" stroke="#0F2342" stroke-width="2.3"
+          stroke-linejoin="round" />
+        <!-- Vermilion Hull -->
+        <path d="M2,38 L46,32 L38,44 L10,46 Z" fill="#E84C22" stroke="#0F2342" stroke-width="2.6"
+          stroke-linejoin="round" />
+      </g>
+
+      <!-- Ribbon Banner Tails & Folds -->
+      <!-- Left Tail -->
+      <polygon points="10,136 52,146 52,188 8,178 22,158" fill="#FAF7F2" stroke="#0F2342" stroke-width="3.2"
+        stroke-linejoin="round" />
+      <polygon points="36,154 52,146 52,166" fill="#E2A027" stroke="#0F2342" stroke-width="2.4"
+        stroke-linejoin="round" />
+      <!-- Right Tail -->
+      <polygon points="310,158 268,148 268,190 312,200 296,178" fill="#FAF7F2" stroke="#0F2342" stroke-width="3.2"
+        stroke-linejoin="round" />
+      <polygon points="282,182 268,190 268,172" fill="#E2A027" stroke="#0F2342" stroke-width="2.4"
+        stroke-linejoin="round" />
+
+      <!-- Main Curved Banner -->
+      <path d="M36,148 Q160,174 282,142 L278,186 Q160,214 40,192 Z" fill="#FAF7F2" stroke="#0F2342" stroke-width="3.6"
+        stroke-linejoin="round" />
+
+      <!-- Curved "GEMS IN" Typography -->
+      <defs>
+        <path id="ribbonTextArc" d="M 65,184 Q 160,194 256,169" />
+      </defs>
+      <text fill="#0F2342" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="33"
+        letter-spacing="2.5">
+        <textPath href="#ribbonTextArc" startOffset="50%" text-anchor="middle">GEMS IN</textPath>
+      </text>
+
+      <!-- "BANDA NEIRA" Lettering (#E84C22) -->
+      <text x="160" y="230" text-anchor="middle" fill="#E84C22" font-family="'Plus Jakarta Sans', sans-serif"
+        font-weight="800" font-size="25" letter-spacing="1.4" transform="rotate(-3.5 160 226)">BANDA NEIRA</text>
+
+      <!-- Lower Ocean Wave Swash (#1B75A6) -->
+      <path
+        d="M74,244 Q158,238 228,239 Q241,238 238,226 Q248,231 245,241 Q255,235 259,224 Q264,238 242,245 Q172,252 74,244 Z"
+        fill="#1B75A6" stroke="#0F2342" stroke-width="2.2" stroke-linejoin="round" />
+
+      <!-- Three Nutmegs (#9A4929) with Mace Netting -->
+      <g transform="translate(126, 258)">
+        <ellipse cx="0" cy="0" rx="8.5" ry="10.5" fill="#9A4929" stroke="#7A361B" stroke-width="1.4" />
+        <path d="M-5,-7 L5,7 M-7,0 L7,0 M-5,7 L5,-7 M0,-10 L0,10" stroke="#C86D44" stroke-width="1.3" />
+      </g>
+      <g transform="translate(160, 258)">
+        <ellipse cx="0" cy="0" rx="8.5" ry="10.5" fill="#9A4929" stroke="#7A361B" stroke-width="1.4" />
+        <path d="M-5,-7 L5,7 M-7,0 L7,0 M-5,7 L5,-7 M0,-10 L0,10" stroke="#C86D44" stroke-width="1.3" />
+      </g>
+      <g transform="translate(194, 258)">
+        <ellipse cx="0" cy="0" rx="8.5" ry="10.5" fill="#9A4929" stroke="#7A361B" stroke-width="1.4" />
+        <path d="M-5,-7 L5,7 M-7,0 L7,0 M-5,7 L5,-7 M0,-10 L0,10" stroke="#C86D44" stroke-width="1.3" />
+      </g>
+
+      <!-- 4-Point Sparkles (#E2A027 & #E84C22) -->
+      <path d="M114,56 L116.5,63 L123.5,65.5 L116.5,68 L114,75 L111.5,68 L104.5,65.5 L111.5,63 Z" fill="#E2A027" />
+      <path d="M104,70 L105.8,75 L110.8,76.8 L105.8,78.6 L104,83.6 L102.2,78.6 L97.2,76.8 L102.2,75 Z" fill="#E84C22" />
+      <path d="M206,54 L208.5,61 L215.5,63.5 L208.5,66 L206,73 L203.5,66 L196.5,63.5 L203.5,61 Z" fill="#E2A027" />
+      <path d="M217,67 L218.8,72 L223.8,73.8 L218.8,75.6 L217,80.6 L215.2,75.6 L210.2,73.8 L215.2,72 Z"
+        fill="#E84C22" />
+      <path d="M214,137 L216,143 L222,145 L216,147 L214,153 L212,147 L206,145 L212,143 Z" fill="#E2A027" />
+      <path d="M84,167 L85.8,172 L90.8,173.8 L85.8,175.6 L84,180.6 L82.2,175.6 L77.2,173.8 L82.2,172 Z"
+        fill="#E84C22" />
+      <path d="M95,248 L97,254 L103,256 L97,258 L95,264 L93,258 L87,256 L93,254 Z" fill="#E2A027" />
+      <path d="M105,258 L106.6,262.5 L111,264 L106.6,265.5 L105,270 L103.4,265.5 L99,264 L103.4,262.5 Z"
+        fill="#E84C22" />
+      <path d="M225,248 L227,254 L233,256 L227,258 L225,264 L223,258 L217,256 L223,254 Z" fill="#E2A027" />
+      <path d="M215,258 L216.6,262.5 L221,264 L216.6,265.5 L215,270 L213.4,265.5 L209,264 L213.4,262.5 Z"
+        fill="#E84C22" />
+    </symbol>
+  </svg>
+
+  <!-- =====================================================================
+       1. STICKY GLASSMORPHIC TOP NAVIGATION BAR
+  ====================================================================== -->
+  <header id="navbar"
+    class="sticky top-0 z-50 w-full bg-parchment/90 backdrop-blur-md border-b border-navy/10 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <!-- Brand Logo & Title -->
+        <a href="#top" class="flex items-center gap-3 group focus:outline-none">
+          <svg class="w-12 h-12 sm:w-14 sm:h-14 shrink-0 transition-transform duration-300 group-hover:scale-105"
+            viewBox="0 0 320 310" aria-label="Gems in Banda Neira Logo">
+            <use href="#gems-logo-badge" />
+          </svg>
+          <div class="flex flex-col">
+            <span class="font-serif font-bold text-lg sm:text-xl tracking-tight text-navy leading-none">
+              Gems in Banda Neira
+            </span>
+            <span class="font-mono text-[10px] sm:text-[11px] uppercase tracking-[0.18em] text-teal font-semibold mt-1">
+              Visit Indonesia 2026
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden xl:flex items-center gap-6 text-[13px] font-semibold text-navy/80">
+          <a href="#story" class="nav-link hover:text-vermilion transition-colors py-1">The Story</a>
+          <a href="#timeline" class="nav-link hover:text-vermilion transition-colors py-1">Timeline</a>
+          <a href="#archipelago" class="nav-link hover:text-vermilion transition-colors py-1">Archipelago</a>
+          <a href="#places" class="nav-link hover:text-vermilion transition-colors py-1">Six Places</a>
+          <a href="#itinerary" class="nav-link hover:text-vermilion transition-colors py-1">4-Day Itinerary</a>
+          <a href="#journeys" class="nav-link hover:text-vermilion transition-colors py-1">Journeys</a>
+          <a href="#getting-there" class="nav-link hover:text-vermilion transition-colors py-1">Getting There</a>
+        </nav>
+
+        <!-- Right CTA & Mobile Menu Toggle -->
+        <div class="flex items-center gap-3">
+          <a href="#enquiry"
+            class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-ochre text-navy font-bold text-xs sm:text-sm tracking-wide shadow-md hover:bg-ochre/90 hover:-translate-y-0.5 transition-all">
+            <span>Plan Your Journey</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.4" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+            </svg>
+          </a>
+
+          <!-- Mobile Hamburger Button -->
+          <button id="mobile-menu-btn" type="button" aria-label="Open Navigation Menu"
+            class="xl:hidden p-2.5 rounded-xl border border-navy/15 text-navy hover:bg-sand transition-colors">
+            <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu"
+      class="hidden xl:hidden bg-parchment border-b border-navy/10 px-6 pt-3 pb-6 space-y-2 shadow-xl">
+      <a href="#story"
+        class="mobile-nav-link block py-2.5 px-3 rounded-lg text-sm font-semibold text-navy hover:bg-sand">The Story</a>
+      <a href="#timeline"
+        class="mobile-nav-link block py-2.5 px-3 rounded-lg text-sm font-semibold text-navy hover:bg-sand">Historical
+        Timeline</a>
+      <a href="#archipelago"
+        class="mobile-nav-link block py-2.5 px-3 rounded-lg text-sm font-semibold text-navy hover:bg-sand">Archipelago
+        Explorer</a>
+      <a href="#places"
+        class="mobile-nav-link block py-2.5 px-3 rounded-lg text-sm font-semibold text-navy hover:bg-sand">Six Places to
+        Walk</a>
+      <a href="#itinerary"
+        class="mobile-nav-link block py-2.5 px-3 rounded-lg text-sm font-semibold text-navy hover:bg-sand">4-Day
+        Itinerary</a>
+      <a href="#journeys"
+        class="mobile-nav-link block py-2.5 px-3 rounded-lg text-sm font-semibold text-navy hover:bg-sand">Curated
+        Journeys</a>
+      <a href="#getting-there"
+        class="mobile-nav-link block py-2.5 px-3 rounded-lg text-sm font-semibold text-navy hover:bg-sand">Getting There
+        & Essentials</a>
+      <div class="pt-3">
+        <a href="#enquiry"
+          class="mobile-nav-link flex items-center justify-center gap-2 w-full py-3 rounded-full bg-ochre text-navy font-bold text-sm shadow-md">
+          Plan Your Journey &rarr;
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- =====================================================================
+       2. EXCLUSIVE EDITORIAL HERO SECTION + 4-COLUMN HERITAGE PROOF STRIP
+  ====================================================================== -->
+  <section id="top" class="relative overflow-hidden bg-gradient-to-br from-navy via-[#10334A] to-teal text-parchment">
+    <!-- Subtle Topographic Contour Background Pattern -->
+    <div class="absolute inset-0 pointer-events-none">
+      <img src="cover pulau.jpeg" alt="Pulau Gunung Api Banda Neira" class="w-full h-full object-cover object-center" />
+      <div class="absolute inset-0 bg-gradient-to-r from-navy/80 via-navy/55 to-navy/35"></div>
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-16 lg:pt-20 lg:pb-24">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-10 items-center">
+        <!-- Left Column: Editorial Headline & Narrative -->
+        <div class="lg:col-span-7 space-y-6">
+          <div
+            class="inline-flex flex-wrap items-center gap-2 px-3.5 py-1.5 rounded-full bg-parchment/10 border border-ochre/40 backdrop-blur-sm">
+            <span class="w-2 h-2 rounded-full bg-ochre animate-pulse"></span>
+            <span class="font-mono text-[11px] sm:text-xs tracking-[0.14em] uppercase text-ochre font-medium">
+              Visit Indonesia 2026 &bull; Truly Asia 2026 &bull; UNESCO Tentative Heritage
+            </span>
+          </div>
+
+          <h1
+            class="font-serif font-bold text-4xl sm:text-5xl lg:text-6xl xl:text-[64px] leading-[1.06] tracking-tight text-parchment">
+            Pulau Kecil,<br />
+            <span class="text-ochre italic font-editorial">Sejarah Raksasa.</span>
+          </h1>
+
+          <p class="text-base sm:text-lg lg:text-xl text-parchment/85 max-w-2xl leading-relaxed font-normal">
+            A small island, a giant history. <strong class="text-parchment font-semibold">Banda Neira</strong>: where
+            Asia's spice story began — connecting Maluku's volcanic nutmeg groves to Melaka and the world.
+          </p>
+
+          <!-- Primary & Secondary CTAs -->
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
+            <a href="#journeys"
+              class="inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-full bg-ochre text-navy font-bold text-sm sm:text-base shadow-lg hover:bg-ochre/90 hover:-translate-y-0.5 transition-all">
+              <span>Plan Your Journey</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              </svg>
+            </a>
+            <a href="#story"
+              class="inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-full border border-parchment/30 bg-parchment/5 text-parchment font-semibold text-sm sm:text-base hover:bg-parchment/15 transition-all">
+              <span>Explore the Spice Route</span>
+              <svg class="w-4 h-4 text-ochre" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Editorial Quote Attribution -->
+          <div
+            class="pt-4 flex items-center gap-4 text-xs sm:text-sm text-parchment/70 border-t border-parchment/15 max-w-xl">
+            <span class="font-mono text-ochre uppercase tracking-wider">Archival Note</span>
+            <span>&ldquo;Melaka bought the spice, Banda grew it.&rdquo; — Historic &amp; Marine Landscape of the Banda
+              Islands</span>
+          </div>
+        </div>
+
+        <!-- Right Column: Framed Architectural & Volcanic Horizon Showcase Card -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative rounded-3xl p-3 bg-parchment/10 border border-parchment/20 backdrop-blur-md shadow-2xl">
+            <!-- Custom Layered Vector Panorama: Fort Belgica Overlooking Banda Bay & Mount Api -->
+            <div
+              class="relative rounded-2xl overflow-hidden bg-gradient-to-b from-[#0F2342] via-[#1B75A6] to-[#134E52] aspect-[4/3.6]">
+              <div class="relative rounded-2xl overflow-hidden bg-navy aspect-[4/3.6]">
+                <!-- Foto Utama Fort Belgica & Mount Api -->
+                <img src="fortbelgicahero.png" alt="Fort Belgica dan Mount Api Banda Neira"
+                  class="w-full h-full object-cover object-center" />
+
+                <!-- Top Archival Caption Bar -->
+                <div
+                  class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between px-3.5 py-2 rounded-xl bg-navy/75 backdrop-blur-md border border-parchment/15 text-[11px] font-mono text-parchment/90">
+                  <span>FORT BELGICA &bull; MOUNT API</span>
+                  <span class="text-ochre">4&deg;31'S 129&deg;54'E</span>
+                </div>
+
+                <!-- Bottom Archival Location Strip -->
+                <div
+                  class="absolute bottom-2 left-3.5 right-3.5 px-4 py-3 rounded-xl bg-navy/30 backdrop-blur-md border border-parchment/15">
+                  <p class="font-mono text-[10px] uppercase tracking-[0.16em] text-ochre">Maluku Archipelago, Indonesia
+                  </p>
+                  <p class="font-serif text-sm sm:text-base text-parchment mt-0.5">
+                    17th-Century Pentagon Citadel Overlooking Banda Bay
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Floating Official Campaign Seal Badge -->
+
+        </div>
+      </div>
+    </div>
+
+    <!-- 4-COLUMN HERITAGE PROOF STRIP -->
+    <div class="relative border-t border-parchment/15 bg-navy/90 backdrop-blur-md">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+          <div
+            class="flex items-start gap-3.5 border-b sm:border-b-0 sm:border-r border-parchment/10 pb-4 sm:pb-0 sm:pr-4">
+            <span
+              class="font-mono text-xs px-2.5 py-1 rounded bg-vermilion/20 text-vermilion border border-vermilion/40 font-semibold shrink-0">
+              Until 1850s
+            </span>
+            <div>
+              <h2 class="font-serif font-bold text-base text-parchment">World's Sole Source</h2>
+              <p class="text-xs text-parchment/70 mt-0.5">Exclusive origin of global nutmeg &amp; mace</p>
+            </div>
+          </div>
+
+          <div
+            class="flex items-start gap-3.5 border-b sm:border-b-0 lg:border-r border-parchment/10 pb-4 sm:pb-0 lg:pr-4">
+            <span
+              class="font-mono text-xs px-2.5 py-1 rounded bg-ochre/20 text-ochre border border-ochre/40 font-semibold shrink-0">
+              1667
+            </span>
+            <div>
+              <h2 class="font-serif font-bold text-base text-parchment">Treaty of Breda</h2>
+              <p class="text-xs text-parchment/70 mt-0.5">Run Island traded for Manhattan</p>
+            </div>
+          </div>
+
+          <div
+            class="flex items-start gap-3.5 border-b sm:border-b-0 sm:border-r border-parchment/10 pb-4 sm:pb-0 sm:pr-4">
+            <span
+              class="font-mono text-xs px-2.5 py-1 rounded bg-cerulean/25 text-[#7CC8F0] border border-cerulean/50 font-semibold shrink-0">
+              1936–1942
+            </span>
+            <div>
+              <h2 class="font-serif font-bold text-base text-parchment">Exile of Founders</h2>
+              <p class="text-xs text-parchment/70 mt-0.5">Homes of Hatta &amp; Sutan Sjahrir</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3.5">
+            <span
+              class="font-mono text-xs px-2.5 py-1 rounded bg-teal/60 text-[#7EE0D6] border border-[#7EE0D6]/30 font-semibold shrink-0">
+              Zero Crowds
+            </span>
+            <div>
+              <h2 class="font-serif font-bold text-base text-parchment">Responsible Slow Travel</h2>
+              <p class="text-xs text-parchment/70 mt-0.5">Community-first heritage conservation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       3. SECTION 01 — THE STORY ("Melaka bought the spice, Banda grew it.")
+  ====================================================================== -->
+  <section id="story" class="py-20 lg:py-28 bg-parchment paper-texture border-b border-navy/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="reveal max-w-3xl mb-14">
+        <span class="font-mono text-xs uppercase tracking-[0.2em] text-vermilion font-semibold">
+          01 &mdash; The Maritime Spice Story
+        </span>
+        <h2 class="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-navy mt-3 leading-tight">
+          &ldquo;Melaka bought the spice, <span class="text-teal italic">Banda grew it.</span>&rdquo;
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+        <!-- Left Column: Narrative + Interactive 3-Node Spice Route Flow Diagram -->
+        <div class="reveal lg:col-span-7 space-y-8">
+          <div class="space-y-4 text-navy/85 text-base sm:text-lg leading-relaxed">
+            <p>
+              Long before European caravels charted the eastern seas, the mineral-rich volcanic slopes of <strong
+                class="text-navy font-semibold">Banda Neira</strong> and its neighbouring islands nurtured the world's
+              only <em class="font-editorial text-xl text-nutmeg font-semibold">Myristica fragrans</em> trees—yielding
+              prized nutmeg seeds and crimson mace.
+            </p>
+            <p>
+              Carried westward along monsoon maritime networks by Malay, Javanese, and Arab seafarers, Banda's harvest
+              converged at the bustling entrep&ocirc;t of <strong class="text-navy font-semibold">Melaka</strong> before
+              reaching Constantinople, Venice, and London—making this tiny volcanic archipelago the beating heart of
+              Asian trade history.
+            </p>
+          </div>
+
+          <!-- Interactive 3-Node Spice Route Flow Diagram -->
+          <div class="rounded-3xl bg-sand p-6 sm:p-8 border border-navy/10 shadow-editorial">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-6">
+              <span class="font-mono text-xs uppercase tracking-[0.16em] text-teal font-semibold">
+                Interactive Maritime Route Explorer
+              </span>
+              <span class="font-mono text-[11px] text-navy/60">Click any node to inspect trade dossier</span>
+            </div>
+
+            <!-- 3 Clickable Route Nodes -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 relative">
+              <button type="button" data-route="banda"
+                class="route-node-btn active text-left p-4 rounded-2xl border-2 border-vermilion bg-parchment shadow-sm transition-all">
+                <div class="flex items-center justify-between">
+                  <span class="font-mono text-xs font-bold text-vermilion">01. ORIGIN</span>
+                  <span class="w-2.5 h-2.5 rounded-full bg-vermilion"></span>
+                </div>
+                <p class="font-serif font-bold text-lg text-navy mt-1">Banda Neira</p>
+                <p class="text-xs text-navy/65 mt-0.5">Maluku, Indonesia</p>
+              </button>
+
+              <button type="button" data-route="melaka"
+                class="route-node-btn text-left p-4 rounded-2xl border-2 border-navy/10 bg-parchment/60 hover:bg-parchment transition-all">
+                <div class="flex items-center justify-between">
+                  <span class="font-mono text-xs font-bold text-cerulean">02. ASIAN HUB</span>
+                  <span class="w-2.5 h-2.5 rounded-full bg-cerulean"></span>
+                </div>
+                <p class="font-serif font-bold text-lg text-navy mt-1">Melaka Port</p>
+                <p class="text-xs text-navy/65 mt-0.5">Malay Archipelago</p>
+              </button>
+
+              <button type="button" data-route="global"
+                class="route-node-btn text-left p-4 rounded-2xl border-2 border-navy/10 bg-parchment/60 hover:bg-parchment transition-all">
+                <div class="flex items-center justify-between">
+                  <span class="font-mono text-xs font-bold text-ochre">03. WORLD</span>
+                  <span class="w-2.5 h-2.5 rounded-full bg-ochre"></span>
+                </div>
+                <p class="font-serif font-bold text-lg text-navy mt-1">Global Markets</p>
+                <p class="text-xs text-navy/65 mt-0.5">Asia, Arabia &amp; Europe</p>
+              </button>
+            </div>
+
+            <!-- Dynamic Trade Node Dossier Display -->
+            <div id="route-dossier"
+              class="mt-6 p-5 rounded-2xl bg-navy text-parchment border border-ochre/30 transition-all">
+              <div class="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-parchment/15">
+                <span id="route-badge" class="font-mono text-xs uppercase tracking-widest text-ochre">
+                  4&deg;31'S 129&deg;54'E &bull; Volcanic Cultivation
+                </span>
+                <span id="route-era" class="font-mono text-xs text-parchment/70">Pre-1500s – 1850s</span>
+              </div>
+              <h3 id="route-title" class="font-serif font-bold text-xl text-parchment mt-3">
+                Banda Neira: Sole Botanical Sanctuary of Nutmeg &amp; Mace
+              </h3>
+              <p id="route-desc" class="text-sm text-parchment/80 mt-2 leading-relaxed">
+                Grown exclusively in shaded volcanic groves under towering kenari trees, Banda's nutmeg and crimson mace
+                commanded astronomical value—worth more than their weight in gold once they left Maluku shores.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Right Column: 3 Stacked Signature USP Cards -->
+        <div class="reveal lg:col-span-5 space-y-5">
+          <!-- Card 1: Nutmeg & Mace -->
+          <div
+            class="group relative overflow-hidden p-6 sm:p-7 rounded-2xl bg-navy border border-navy/15 border-l-4 border-l-vermilion shadow-sm hover:shadow-editorial transition-all">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Myristica_fragrans_by_kadavoor.jpg?width=1000"
+              alt="Buah Pala dan Fuli (Myristica fragrans)" loading="lazy"
+              class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-r from-navy/60 via-navy/40 to-navy/20"></div>
+
+            <div class="relative z-10">
+              <div class="flex items-center justify-between mb-2">
+                <span class="font-mono text-xs uppercase tracking-widest text-vermilion font-semibold">USP 01 &bull;
+                  Botanical Legacy</span>
+                <span class="font-mono text-xs text-parchment/60">Myristica fragrans</span>
+              </div>
+              <h3 class="font-serif font-bold text-xl sm:text-2xl text-parchment">Home of Nutmeg &amp; Mace</h3>
+              <p class="text-sm sm:text-base text-parchment/80 mt-2 leading-relaxed">
+                Until the mid-19th century, the Banda Islands were the world's sole source of nutmeg and mace—shaping
+                global maritime exploration and culinary history.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 2: Preserved Colonial Heritage -->
+          <div
+            class="group relative overflow-hidden p-6 sm:p-7 rounded-2xl bg-navy border border-navy/15 border-l-4 border-l-cerulean shadow-sm hover:shadow-editorial transition-all">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Istana_Mini_(48226707612).jpg?width=1000"
+              alt="Istana Mini Banda Neira" loading="lazy"
+              class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-r from-navy/60 via-navy/40 to-navy/20"></div>
+
+            <div class="relative z-10">
+              <div class="flex items-center justify-between mb-2">
+                <span class="font-mono text-xs uppercase tracking-widest text-[#7CC8F0] font-semibold">USP 02 &bull;
+                  UNESCO
+                  Tentative</span>
+                <span class="font-mono text-xs text-parchment/60">Ref #6065</span>
+              </div>
+              <h3 class="font-serif font-bold text-xl sm:text-2xl text-parchment">Preserved Colonial Heritage</h3>
+              <p class="text-sm sm:text-base text-parchment/80 mt-2 leading-relaxed">
+                Recognised on Indonesia's UNESCO Tentative List as the Historic and Marine Landscape of the Banda
+                Islands—featuring 17th-century pentagonal Fort Belgica and Istana Mini.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 3: Founding-Figure Exile Sites -->
+          <div
+            class="group relative overflow-hidden p-6 sm:p-7 rounded-2xl bg-navy border border-navy/15 border-l-4 border-l-ochre shadow-sm hover:shadow-editorial transition-all">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Muhammad_Hatta_home_in_exile.jpg?width=1000"
+              alt="Rumah Pengasingan Bung Hatta di Banda Neira" loading="lazy"
+              class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-r from-navy/60 via-navy/40 to-navy/20"></div>
+
+            <div class="relative z-10">
+              <div class="flex items-center justify-between mb-2">
+                <span class="font-mono text-xs uppercase tracking-widest text-ochre font-semibold">USP 03 &bull;
+                  National
+                  Memory</span>
+                <span class="font-mono text-xs text-parchment/60">1936 – 1942</span>
+              </div>
+              <h3 class="font-serif font-bold text-xl sm:text-2xl text-parchment">Founding-Figure Exile Sites</h3>
+              <p class="text-sm sm:text-base text-parchment/80 mt-2 leading-relaxed">
+                Walk inside the preserved residences where Indonesian founding fathers Mohammad Hatta and Sutan Sjahrir
+                lived, taught local children, and envisioned an independent nation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       4. SECTION 02 — INTERACTIVE HISTORICAL TIMELINE ("Five centuries on one island")
+  ====================================================================== -->
+  <section id="timeline" class="py-20 lg:py-28 bg-sand/70 border-b border-navy/10">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="reveal flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
+        <div>
+          <span class="font-mono text-xs uppercase tracking-[0.2em] text-vermilion font-semibold">
+            02 &mdash; Chronology of the Spice Islands
+          </span>
+          <h2 class="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-navy mt-3">
+            Five centuries on one island
+          </h2>
+        </div>
+
+        <!-- Era Filter Buttons -->
+        <div class="flex flex-wrap gap-2" role="tablist" aria-label="Filter Historical Timeline">
+          <button type="button" data-era-filter="all"
+            class="era-filter-btn active px-4 py-2 rounded-full text-xs font-bold bg-navy text-parchment transition-all">
+            All Eras
+          </button>
+          <button type="button" data-era-filter="trade"
+            class="era-filter-btn px-4 py-2 rounded-full text-xs font-bold bg-parchment text-navy border border-navy/15 hover:border-navy transition-all">
+            Spice Trade
+          </button>
+          <button type="button" data-era-filter="colonial"
+            class="era-filter-btn px-4 py-2 rounded-full text-xs font-bold bg-parchment text-navy border border-navy/15 hover:border-navy transition-all">
+            Colonial Rivalry
+          </button>
+          <button type="button" data-era-filter="modern"
+            class="era-filter-btn px-4 py-2 rounded-full text-xs font-bold bg-parchment text-navy border border-navy/15 hover:border-navy transition-all">
+            Independence &amp; 2026
+          </button>
+        </div>
+      </div>
+
+      <!-- Vertical Timeline Container -->
+      <div
+        class="relative space-y-8 before:content-[''] before:absolute before:left-4 md:before:left-[172px] before:top-2 before:bottom-2 before:w-0.5 before:bg-navy/15">
+        <!-- Event 1: Pre-1500s -->
+        <article data-era="trade"
+          class="timeline-item reveal relative pl-12 md:pl-0 md:grid md:grid-cols-[150px_44px_1fr] items-start gap-2">
+          <div class="md:text-right pt-1">
+            <span class="font-mono font-bold text-sm sm:text-base text-vermilion">Pre-1500s</span>
+          </div>
+          <div class="hidden md:flex justify-center pt-2">
+            <span class="w-3.5 h-3.5 rounded-full bg-vermilion ring-4 ring-parchment"></span>
+          </div>
+          <span
+            class="md:hidden absolute left-[9px] top-1.5 w-3.5 h-3.5 rounded-full bg-vermilion ring-4 ring-parchment"></span>
+          <div
+            class="p-6 rounded-2xl bg-parchment border border-navy/10 shadow-sm hover:border-vermilion/40 transition-all">
+            <div class="flex items-center justify-between gap-2 mb-1">
+              <h3 class="font-serif font-bold text-xl text-navy">Indigenous Banda &amp; Asian Spice Merchants</h3>
+              <span class="font-mono text-[11px] px-2.5 py-0.5 rounded bg-ochre/20 text-nutmeg font-semibold">Asian
+                Trade</span>
+            </div>
+            <p class="text-sm sm:text-base text-navy/80 leading-relaxed">
+              Banda's indigenous orang kaya (community leaders) harvest wild nutmeg and mace, trading peacefully with
+              Malay, Javanese, Chinese, and Arab merchants who sail the monsoon winds to Melaka.
+            </p>
+          </div>
+        </article>
+
+        <!-- Event 2: 1512 -->
+        <article data-era="trade"
+          class="timeline-item reveal relative pl-12 md:pl-0 md:grid md:grid-cols-[150px_44px_1fr] items-start gap-2">
+          <div class="md:text-right pt-1">
+            <span class="font-mono font-bold text-sm sm:text-base text-vermilion">1512</span>
+          </div>
+          <div class="hidden md:flex justify-center pt-2">
+            <span class="w-3.5 h-3.5 rounded-full bg-cerulean ring-4 ring-parchment"></span>
+          </div>
+          <span
+            class="md:hidden absolute left-[9px] top-1.5 w-3.5 h-3.5 rounded-full bg-cerulean ring-4 ring-parchment"></span>
+          <div
+            class="p-6 rounded-2xl bg-parchment border border-navy/10 shadow-sm hover:border-cerulean/40 transition-all">
+            <div class="flex items-center justify-between gap-2 mb-1">
+              <h3 class="font-serif font-bold text-xl text-navy">First European Arrival</h3>
+              <span
+                class="font-mono text-[11px] px-2.5 py-0.5 rounded bg-cerulean/15 text-cerulean font-semibold">Exploration</span>
+            </div>
+            <p class="text-sm sm:text-base text-navy/80 leading-relaxed">
+              Following the capture of Melaka in 1511, Portuguese navigators guided by Malay pilots reach the Banda
+              Islands—becoming the first Europeans to set eyes on the fabled source of nutmeg.
+            </p>
+          </div>
+        </article>
+
+        <!-- Event 3: 1609–1611 -->
+        <article data-era="colonial"
+          class="timeline-item reveal relative pl-12 md:pl-0 md:grid md:grid-cols-[150px_44px_1fr] items-start gap-2">
+          <div class="md:text-right pt-1">
+            <span class="font-mono font-bold text-sm sm:text-base text-vermilion">1609–1611</span>
+          </div>
+          <div class="hidden md:flex justify-center pt-2">
+            <span class="w-3.5 h-3.5 rounded-full bg-navy ring-4 ring-parchment"></span>
+          </div>
+          <span
+            class="md:hidden absolute left-[9px] top-1.5 w-3.5 h-3.5 rounded-full bg-navy ring-4 ring-parchment"></span>
+          <div class="p-6 rounded-2xl bg-parchment border border-navy/10 shadow-sm hover:border-navy/40 transition-all">
+            <div class="flex items-center justify-between gap-2 mb-1">
+              <h3 class="font-serif font-bold text-xl text-navy">Fort Nassau &amp; Fort Belgica</h3>
+              <span
+                class="font-mono text-[11px] px-2.5 py-0.5 rounded bg-navy/10 text-navy font-semibold">Architecture</span>
+            </div>
+            <p class="text-sm sm:text-base text-navy/80 leading-relaxed">
+              The Dutch East India Company (VOC) erects waterfront Fort Nassau and monumental pentagonal Fort Belgica on
+              the ridge above Neira harbour to command the sea lanes and enforce the spice monopoly.
+            </p>
+          </div>
+        </article>
+
+        <!-- Event 4: 1667 -->
+        <article data-era="colonial"
+          class="timeline-item reveal relative pl-12 md:pl-0 md:grid md:grid-cols-[150px_44px_1fr] items-start gap-2">
+          <div class="md:text-right pt-1">
+            <span class="font-mono font-bold text-sm sm:text-base text-vermilion">1667</span>
+          </div>
+          <div class="hidden md:flex justify-center pt-2">
+            <span class="w-3.5 h-3.5 rounded-full bg-ochre ring-4 ring-parchment"></span>
+          </div>
+          <span
+            class="md:hidden absolute left-[9px] top-1.5 w-3.5 h-3.5 rounded-full bg-ochre ring-4 ring-parchment"></span>
+          <div
+            class="p-6 rounded-2xl bg-parchment border border-navy/10 shadow-sm hover:border-ochre/50 transition-all">
+            <div class="flex items-center justify-between gap-2 mb-1">
+              <h3 class="font-serif font-bold text-xl text-navy">The Treaty of Breda</h3>
+              <span class="font-mono text-[11px] px-2.5 py-0.5 rounded bg-ochre/25 text-navy font-semibold">World
+                Geopolitics</span>
+            </div>
+            <p class="text-sm sm:text-base text-navy/80 leading-relaxed">
+              Under the Treaty of Breda, the English cede tiny nutmeg-rich Pulau Run (Run Island) to the Dutch in
+              exchange for a remote North American island then called New Amsterdam—today's Manhattan.
+            </p>
+          </div>
+        </article>
+
+        <!-- Event 5: 1936–1942 -->
+        <article data-era="modern"
+          class="timeline-item reveal relative pl-12 md:pl-0 md:grid md:grid-cols-[150px_44px_1fr] items-start gap-2">
+          <div class="md:text-right pt-1">
+            <span class="font-mono font-bold text-sm sm:text-base text-vermilion">1936–1942</span>
+          </div>
+          <div class="hidden md:flex justify-center pt-2">
+            <span class="w-3.5 h-3.5 rounded-full bg-teal ring-4 ring-parchment"></span>
+          </div>
+          <span
+            class="md:hidden absolute left-[9px] top-1.5 w-3.5 h-3.5 rounded-full bg-teal ring-4 ring-parchment"></span>
+          <div class="p-6 rounded-2xl bg-parchment border border-navy/10 shadow-sm hover:border-teal/40 transition-all">
+            <div class="flex items-center justify-between gap-2 mb-1">
+              <h3 class="font-serif font-bold text-xl text-navy">Exile of Hatta &amp; Sjahrir</h3>
+              <span
+                class="font-mono text-[11px] px-2.5 py-0.5 rounded bg-teal/15 text-teal font-semibold">Independence</span>
+            </div>
+            <p class="text-sm sm:text-base text-navy/80 leading-relaxed">
+              Exiled by colonial authorities, Indonesian independence leaders Mohammad Hatta and Sutan Sjahrir spend six
+              formative years in Banda Neira—writing political essays and establishing free schools for local youth.
+            </p>
+          </div>
+        </article>
+
+        <!-- Event 6: 2026 -->
+        <article data-era="modern"
+          class="timeline-item reveal relative pl-12 md:pl-0 md:grid md:grid-cols-[150px_44px_1fr] items-start gap-2">
+          <div class="md:text-right pt-1">
+            <span class="font-mono font-bold text-sm sm:text-base text-vermilion">2026</span>
+          </div>
+          <div class="hidden md:flex justify-center pt-2">
+            <span class="w-3.5 h-3.5 rounded-full bg-vermilion ring-4 ring-ochre/40"></span>
+          </div>
+          <span
+            class="md:hidden absolute left-[9px] top-1.5 w-3.5 h-3.5 rounded-full bg-vermilion ring-4 ring-ochre/40"></span>
+          <div class="p-6 rounded-2xl bg-navy text-parchment border border-ochre/40 shadow-editorial">
+            <div class="flex items-center justify-between gap-2 mb-1">
+              <h3 class="font-serif font-bold text-xl text-ochre">Visit Indonesia: Truly Asia 2026</h3>
+              <span class="font-mono text-[11px] px-2.5 py-0.5 rounded bg-ochre text-navy font-bold">Current Era</span>
+            </div>
+            <p class="text-sm sm:text-base text-parchment/85 leading-relaxed">
+              Reintroducing Banda Neira as Southeast Asia's premier slow-heritage destination—connecting pan-Asian
+              travellers directly with local guides, family homestays, and nutmeg farmers without mass tourism.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       5. SECTION 03 — INTERACTIVE ARCHIPELAGO EXPLORER ("Island by island")
+  ====================================================================== -->
+  <section id="archipelago" class="py-20 lg:py-28 bg-teal text-parchment relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="reveal flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+        <div>
+          <span class="font-mono text-xs uppercase tracking-[0.2em] text-ochre font-semibold">
+            03 &mdash; Interactive Topographic Chart
+          </span>
+          <h2 class="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-parchment mt-3">
+            Island by island
+          </h2>
+          <p class="text-parchment/80 text-sm sm:text-base mt-2 max-w-xl">
+            Select any island pin on the Banda Sea chart to inspect its distance from Neira, historical significance,
+            and signature expedition experiences.
+          </p>
+        </div>
+
+        <!-- Mobile/Quick Island Pill Selector -->
+        <div class="flex flex-wrap gap-2">
+          <button type="button" data-island="neira"
+            class="island-tab active px-3.5 py-2 rounded-full text-xs font-bold bg-ochre text-navy transition-all">Banda
+            Neira</button>
+          <button type="button" data-island="api"
+            class="island-tab px-3.5 py-2 rounded-full text-xs font-bold bg-navy/50 text-parchment border border-parchment/20 hover:border-ochre transition-all">Gunung
+            Api</button>
+          <button type="button" data-island="besar"
+            class="island-tab px-3.5 py-2 rounded-full text-xs font-bold bg-navy/50 text-parchment border border-parchment/20 hover:border-ochre transition-all">Banda
+            Besar</button>
+          <button type="button" data-island="run"
+            class="island-tab px-3.5 py-2 rounded-full text-xs font-bold bg-navy/50 text-parchment border border-parchment/20 hover:border-ochre transition-all">Pulau
+            Run</button>
+          <button type="button" data-island="aihatta"
+            class="island-tab px-3.5 py-2 rounded-full text-xs font-bold bg-navy/50 text-parchment border border-parchment/20 hover:border-ochre transition-all">Ai
+            &amp; Hatta</button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <!-- Left: Stylized SVG Topographic Map of the Banda Islands -->
+        <div class="reveal lg:col-span-7 rounded-3xl bg-navy/85 p-4 sm:p-6 border border-parchment/15 shadow-2xl">
+          <div class="relative rounded-2xl overflow-hidden bg-[#0B1E38] border border-cerulean/30 aspect-[16/11]">
+            <svg id="archipelago-svg" class="w-full h-full" viewBox="0 0 800 550"
+              aria-label="Interactive Map of the Banda Archipelago">
+              <!-- Bathymetric Sea Grid & Contours -->
+              <g stroke="#1B75A6" stroke-opacity="0.22" fill="none">
+                <line x1="0" y1="110" x2="800" y2="110" stroke-dasharray="4 6" />
+                <line x1="0" y1="275" x2="800" y2="275" stroke-dasharray="4 6" />
+                <line x1="0" y1="440" x2="800" y2="440" stroke-dasharray="4 6" />
+                <line x1="200" y1="0" x2="200" y2="550" stroke-dasharray="4 6" />
+                <line x1="450" y1="0" x2="450" y2="550" stroke-dasharray="4 6" />
+                <line x1="650" y1="0" x2="650" y2="550" stroke-dasharray="4 6" />
+                <!-- Depth Rings -->
+                <ellipse cx="445" cy="260" rx="220" ry="150" stroke-width="1.2" />
+                <ellipse cx="445" cy="260" rx="150" ry="100" stroke-width="1.2" />
+              </g>
+
+              <!-- Compass Rose Top Left -->
+              <g transform="translate(68, 68)" stroke="#E2A027" stroke-width="1.2" fill="none">
+                <circle cx="0" cy="0" r="24" opacity="0.5" />
+                <polygon points="0,-28 4,-4 28,0 4,4 0,28 -4,4 -28,0 -4,-4" fill="#E2A027" fill-opacity="0.2" />
+                <text x="0" y="-33" text-anchor="middle" fill="#E2A027" stroke="none" font-family="JetBrains Mono"
+                  font-size="10" font-weight="bold">N</text>
+              </g>
+
+              <!-- ISLAND 1: PULAU RUN (West) -->
+              <g class="island-shape cursor-pointer" data-island="run">
+                <path d="M55,265 Q75,245 102,252 Q115,266 95,282 Q68,288 55,265 Z" fill="#1E6B52" stroke="#7EE0D6"
+                  stroke-width="2" />
+                <text x="82" y="305" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans" font-size="12"
+                  font-weight="700">Pulau Run</text>
+              </g>
+
+              <!-- ISLAND 2: PULAU AI (Mid-West) & PULAU HATTA (East) -->
+              <g class="island-shape cursor-pointer" data-island="aihatta">
+                <path d="M185,248 Q208,236 226,248 Q230,268 205,274 Q182,268 185,248 Z" fill="#1E6B52" stroke="#7EE0D6"
+                  stroke-width="2" />
+                <text x="206" y="294" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans" font-size="12"
+                  font-weight="700">Pulau Ai</text>
+
+                <path d="M685,375 Q715,365 738,382 Q732,404 702,402 Q680,392 685,375 Z" fill="#1E6B52" stroke="#7EE0D6"
+                  stroke-width="2" />
+                <text x="712" y="422" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans" font-size="12"
+                  font-weight="700">Pulau Hatta</text>
+              </g>
+
+              <!-- ISLAND 3: GUNUNG API (Center-West Volcanic Cone) -->
+              <g class="island-shape cursor-pointer" data-island="api">
+                <path d="M355,225 Q388,195 422,222 Q428,255 392,262 Q358,255 355,225 Z" fill="#2A5E49" stroke="#E84C22"
+                  stroke-width="2.2" />
+                <circle cx="389" cy="228" r="9" fill="#E84C22" opacity="0.85" />
+                <text x="355" y="190" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans" font-size="12"
+                  font-weight="700">Gunung Api (656m)</text>
+              </g>
+
+              <!-- ISLAND 4: BANDA NEIRA (Center Heritage Heart) -->
+              <g class="island-shape cursor-pointer" data-island="neira">
+                <path d="M436,214 Q454,205 466,225 Q468,256 452,264 Q437,255 436,214 Z" fill="#2F7A5D" stroke="#E2A027"
+                  stroke-width="2.5" />
+                <text x="488" y="205" text-anchor="start" fill="#E2A027" font-family="Plus Jakarta Sans" font-size="13"
+                  font-weight="800">Banda Neira</text>
+              </g>
+
+              <!-- ISLAND 5: BANDA BESAR / LONTHOIR (Crescent South-East) -->
+              <g class="island-shape cursor-pointer" data-island="besar">
+                <path d="M415,286 Q478,284 545,232 Q575,205 595,218 Q585,260 525,305 Q465,335 408,312 Z" fill="#1E6B52"
+                  stroke="#7EE0D6" stroke-width="2" />
+                <text x="545" y="325" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans" font-size="12"
+                  font-weight="700">Banda Besar (Lonthoir)</text>
+              </g>
+
+              <!-- Maritime Sea Route Dashed Lines from Banda Neira -->
+              <g stroke="#E2A027" stroke-width="1.3" stroke-dasharray="5 5" opacity="0.65">
+                <line x1="450" y1="242" x2="390" y2="232" />
+                <line x1="450" y1="242" x2="495" y2="278" />
+                <line x1="450" y1="242" x2="206" y2="256" />
+                <line x1="206" y1="256" x2="84" y2="266" />
+                <line x1="450" y1="242" x2="710" y2="386" />
+              </g>
+
+              <!-- INTERACTIVE PINS -->
+              <!-- Pin: Banda Neira -->
+              <g class="island-pin cursor-pointer" data-island="neira" transform="translate(451, 240)">
+                <circle class="pin-pulse" cx="0" cy="0" r="14" fill="#E2A027" />
+                <circle cx="0" cy="0" r="7" fill="#E2A027" stroke="#0F2342" stroke-width="2.5" />
+              </g>
+
+              <!-- Pin: Gunung Api -->
+              <g class="island-pin cursor-pointer" data-island="api" transform="translate(389, 232)">
+                <circle class="pin-pulse" cx="0" cy="0" r="13" fill="#E84C22" />
+                <circle cx="0" cy="0" r="6.5" fill="#E84C22" stroke="#FAF7F2" stroke-width="2" />
+              </g>
+
+              <!-- Pin: Banda Besar -->
+              <g class="island-pin cursor-pointer" data-island="besar" transform="translate(502, 275)">
+                <circle class="pin-pulse" cx="0" cy="0" r="13" fill="#1B75A6" />
+                <circle cx="0" cy="0" r="6.5" fill="#1B75A6" stroke="#FAF7F2" stroke-width="2" />
+              </g>
+
+              <!-- Pin: Pulau Run -->
+              <g class="island-pin cursor-pointer" data-island="run" transform="translate(84, 266)">
+                <circle class="pin-pulse" cx="0" cy="0" r="13" fill="#E2A027" />
+                <circle cx="0" cy="0" r="6.5" fill="#E2A027" stroke="#0F2342" stroke-width="2" />
+              </g>
+
+              <!-- Pin: Pulau Ai & Hatta -->
+              <g class="island-pin cursor-pointer" data-island="aihatta" transform="translate(206, 256)">
+                <circle class="pin-pulse" cx="0" cy="0" r="13" fill="#7EE0D6" />
+                <circle cx="0" cy="0" r="6.5" fill="#7EE0D6" stroke="#0F2342" stroke-width="2" />
+              </g>
+
+              <!-- Scale Bar Bottom Right -->
+              <g transform="translate(610, 505)" fill="#FAF7F2" font-family="JetBrains Mono" font-size="10">
+                <line x1="0" y1="0" x2="120" y2="0" stroke="#FAF7F2" stroke-width="2" />
+                <line x1="0" y1="-5" x2="0" y2="5" stroke="#FAF7F2" stroke-width="2" />
+                <line x1="120" y1="-5" x2="120" y2="5" stroke="#FAF7F2" stroke-width="2" />
+                <text x="60" y="-8" text-anchor="middle">10 KM BANDA SEA</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Right: Detailed Island Dossier Card -->
+        <div class="reveal lg:col-span-5">
+          <div id="island-dossier-card"
+            class="rounded-3xl bg-parchment text-navy p-7 sm:p-8 shadow-2xl border-2 border-ochre/50 transition-all">
+            <div class="flex items-center justify-between gap-2 pb-4 border-b border-navy/10">
+              <span id="island-tag"
+                class="font-mono text-xs uppercase tracking-widest px-3 py-1 rounded-full bg-vermilion/15 text-vermilion font-bold">
+                Heritage Capital
+              </span>
+              <span id="island-distance" class="font-mono text-xs text-navy/65 font-semibold">
+                0 km &bull; Arrival Hub
+              </span>
+            </div>
+
+            <h3 id="island-name" class="font-serif font-bold text-2xl sm:text-3xl text-navy mt-4">
+              Banda Neira
+            </h3>
+            <p id="island-subtitle" class="font-editorial italic text-lg text-teal font-semibold mt-0.5">
+              Historic Town, Dutch Forts &amp; Founding-Father Exile Houses
+            </p>
+
+            <p id="island-summary" class="text-sm sm:text-base text-navy/80 mt-4 leading-relaxed">
+              The cultural and administrative heart of the archipelago. Every landmark—from pentagonal Fort Belgica and
+              waterfront Fort Nassau to Istana Mini and the exile houses of Hatta and Sjahrir—lies within a serene,
+              walkable harbour town.
+            </p>
+
+            <div class="grid grid-cols-2 gap-4 mt-6 pt-5 border-t border-navy/10">
+              <div class="p-3.5 rounded-2xl bg-sand">
+                <span class="font-mono text-[10px] uppercase tracking-wider text-navy/60 block">Best For</span>
+                <span id="island-bestfor" class="font-bold text-xs sm:text-sm text-navy mt-1 block">
+                  Walkable Heritage &amp; Culture
+                </span>
+              </div>
+              <div class="p-3.5 rounded-2xl bg-sand">
+                <span class="font-mono text-[10px] uppercase tracking-wider text-navy/60 block">Key Activity</span>
+                <span id="island-activity" class="font-bold text-xs sm:text-sm text-navy mt-1 block">
+                  Sunset at Fort Belgica
+                </span>
+              </div>
+            </div>
+
+            <div class="mt-6 flex items-center justify-between gap-4">
+              <a href="#places" class="text-xs sm:text-sm font-bold text-vermilion hover:underline">
+                Explore Landmarks &rarr;
+              </a>
+              <button type="button" id="island-enquire-btn"
+                class="px-5 py-2.5 rounded-full bg-navy text-parchment text-xs font-bold hover:bg-teal transition-colors">
+                Include in Trip Enquiry
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       6. SECTION 04 — SIX PLACES THAT TELL IT ALL ("Walk through living history")
+  ====================================================================== -->
+  <section id="places" class="py-20 lg:py-28 bg-parchment paper-texture border-b border-navy/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="reveal max-w-3xl mb-14">
+        <span class="font-mono text-xs uppercase tracking-[0.2em] text-vermilion font-semibold">
+          04 &mdash; Walk Through Living History
+        </span>
+        <h2 class="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-navy mt-3">
+          Six places that tell it all
+        </h2>
+        <p class="text-navy/75 text-base sm:text-lg mt-3">
+          From monumental 17th-century bastions to quiet colonial verandas and coral gardens—inspect each historical
+          dossier before you walk the ground.
+        </p>
+      </div>
+
+      <!-- 3x2 Grid of Six Landmark Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+        <!-- Place 1: Fort Belgica -->
+        <article
+          class="reveal group rounded-3xl bg-sand border border-navy/10 overflow-hidden shadow-sm hover:shadow-editorial transition-all flex flex-col">
+          <div
+            class="h-48 bg-gradient-to-br from-navy via-[#1A3B63] to-teal relative overflow-hidden p-5 flex flex-col justify-between">
+            <!-- Custom Architectural Vector Vignette -->
+            <img src="fortbelgica.png" alt="Fort Belgica saat matahari terbenam di Banda Neira"
+              class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+            <!-- Overlay gradasi tipis agar teks putih di atas langit senja tetap terbaca jelas -->
+            <div class="absolute inset-0 bg-gradient-to-t from-navy/85 via-navy/20 to-navy/55"></div>
+            <div class="relative flex items-center justify-between">
+              <span class="font-mono text-[11px] px-3 py-1 rounded-full bg-ochre text-navy font-bold">01 &bull;
+                Citadel</span>
+              <span class="font-mono text-[11px] text-parchment/80">Built 1611</span>
+            </div>
+            <p class="relative font-mono text-xs text-parchment/80">Pentagonal VOC Fortress</p>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-serif font-bold text-2xl text-navy group-hover:text-vermilion transition-colors">Fort
+                Belgica</h3>
+              <p class="text-sm text-navy/75 mt-2 leading-relaxed">
+                Crowning the ridge above Banda Neira, this remarkably preserved five-sided stone fortress commands
+                panoramic views across Banda Bay and Mount Api.
+              </p>
+            </div>
+            <button type="button" data-place="belgica"
+              class="open-place-modal mt-6 inline-flex items-center gap-2 text-sm font-bold text-vermilion hover:text-navy transition-colors">
+              <span>Read Historical Dossier</span>
+              <span>&rarr;</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Place 2: Fort Nassau -->
+        <article
+          class="reveal group rounded-3xl bg-sand border border-navy/10 overflow-hidden shadow-sm hover:shadow-editorial transition-all flex flex-col">
+          <div
+            class="h-48 bg-gradient-to-br from-teal via-[#166066] to-cerulean relative overflow-hidden p-5 flex flex-col justify-between">
+            <img src="fortnassau.png" alt="Fort Belgica saat matahari terbenam di Banda Neira"
+              class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+            <!-- Overlay gradasi tipis agar teks putih di atas langit senja tetap terbaca jelas -->
+            <div class="absolute inset-0 bg-gradient-to-t from-navy/85 via-navy/20 to-navy/55"></div>
+            <div class="relative flex items-center justify-between">
+              <span class="font-mono text-[11px] px-3 py-1 rounded-full bg-parchment text-navy font-bold">02 &bull;
+                Harbour</span>
+              <span class="font-mono text-[11px] text-parchment/85">Built 1609</span>
+            </div>
+            <p class="relative font-mono text-xs text-parchment/85">First Dutch Coastal Bastion</p>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-serif font-bold text-2xl text-navy group-hover:text-vermilion transition-colors">Fort
+                Nassau</h3>
+              <p class="text-sm text-navy/75 mt-2 leading-relaxed">
+                Constructed atop earlier Portuguese foundations along the waterfront, Fort Nassau guarded the anchorage
+                where spice galleons loaded nutmeg and mace.
+              </p>
+            </div>
+            <button type="button" data-place="nassau"
+              class="open-place-modal mt-6 inline-flex items-center gap-2 text-sm font-bold text-vermilion hover:text-navy transition-colors">
+              <span>Read Historical Dossier</span>
+              <span>&rarr;</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Place 3: Istana Mini (Mini Palace) -->
+        <article
+          class="reveal group rounded-3xl bg-sand border border-navy/10 overflow-hidden shadow-sm hover:shadow-editorial transition-all flex flex-col">
+          <div
+            class="h-48 bg-gradient-to-br from-[#2B3E59] via-navy to-[#134E52] relative overflow-hidden p-5 flex flex-col justify-between">
+            <img src="isatanamini.png" alt="Fort Belgica saat matahari terbenam di Banda Neira"
+              class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+            <!-- Overlay gradasi tipis agar teks putih di atas langit senja tetap terbaca jelas -->
+            <div class="absolute inset-0 bg-gradient-to-t from-navy/85 via-navy/20 to-navy/55"></div>
+            <div class="relative flex items-center justify-between">
+              <span class="font-mono text-[11px] px-3 py-1 rounded-full bg-ochre/90 text-navy font-bold">03 &bull;
+                Architecture</span>
+              <span class="font-mono text-[11px] text-parchment/80">Colonial Era</span>
+            </div>
+            <p class="relative font-mono text-xs text-parchment/80">Governor's Neoclassical Residence</p>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-serif font-bold text-2xl text-navy group-hover:text-vermilion transition-colors">Istana
+                Mini (Mini Palace)</h3>
+              <p class="text-sm text-navy/75 mt-2 leading-relaxed">
+                Inspired by the Bogor Palace, this columned colonial residence served as the administrative seat of the
+                Banda Islands with sweeping marble verandas.
+              </p>
+            </div>
+            <button type="button" data-place="istana"
+              class="open-place-modal mt-6 inline-flex items-center gap-2 text-sm font-bold text-vermilion hover:text-navy transition-colors">
+              <span>Read Historical Dossier</span>
+              <span>&rarr;</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Place 4: Hatta & Sjahrir Exile Houses -->
+        <article
+          class="reveal group rounded-3xl bg-sand border border-navy/10 overflow-hidden shadow-sm hover:shadow-editorial transition-all flex flex-col">
+          <div
+            class="h-48 bg-gradient-to-br from-nutmeg via-[#7A381E] to-navy relative overflow-hidden p-5 flex flex-col justify-between">
+            <img src="hattaexile.png" alt="Fort Belgica saat matahari terbenam di Banda Neira"
+              class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+            <!-- Overlay gradasi tipis agar teks putih di atas langit senja tetap terbaca jelas -->
+            <div class="absolute inset-0 bg-gradient-to-t from-navy/85 via-navy/20 to-navy/55"></div>
+            <div class="relative flex items-center justify-between">
+              <span class="font-mono text-[11px] px-3 py-1 rounded-full bg-parchment text-navy font-bold">04 &bull;
+                Independence</span>
+              <span class="font-mono text-[11px] text-parchment/85">1936–1942</span>
+            </div>
+            <p class="relative font-mono text-xs text-parchment/85">Preserved Exile Residences</p>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-serif font-bold text-2xl text-navy group-hover:text-vermilion transition-colors">Hatta
+                &amp; Sjahrir Exile Houses</h3>
+              <p class="text-sm text-navy/75 mt-2 leading-relaxed">
+                Step inside the quiet study rooms, antique typewriters, and bookshelves where two architects of
+                Indonesian independence lived and taught for six years.
+              </p>
+            </div>
+            <button type="button" data-place="exile"
+              class="open-place-modal mt-6 inline-flex items-center gap-2 text-sm font-bold text-vermilion hover:text-navy transition-colors">
+              <span>Read Historical Dossier</span>
+              <span>&rarr;</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Place 5: Run Island -->
+        <article
+          class="reveal group rounded-3xl bg-sand border border-navy/10 overflow-hidden shadow-sm hover:shadow-editorial transition-all flex flex-col">
+          <div
+            class="h-48 bg-gradient-to-br from-cerulean via-[#145B82] to-teal relative overflow-hidden p-5 flex flex-col justify-between">
+            <img src="runisland.png" alt="Fort Belgica saat matahari terbenam di Banda Neira"
+              class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+            <!-- Overlay gradasi tipis agar teks putih di atas langit senja tetap terbaca jelas -->
+            <div class="absolute inset-0 bg-gradient-to-t from-navy/85 via-navy/20 to-navy/55"></div>
+            <div class="relative flex items-center justify-between">
+              <span class="font-mono text-[11px] px-3 py-1 rounded-full bg-ochre text-navy font-bold">05 &bull; Outer
+                Island</span>
+              <span class="font-mono text-[11px] text-parchment/85">Treaty of 1667</span>
+            </div>
+            <p class="relative font-mono text-xs text-parchment/85">The Island Traded for Manhattan</p>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-serif font-bold text-2xl text-navy group-hover:text-vermilion transition-colors">Run
+                Island (Pulau Run)</h3>
+              <p class="text-sm text-navy/75 mt-2 leading-relaxed">
+                A tiny, tranquil coral-fringed island at the centre of 17th-century Anglo-Dutch spice rivalry—proof that
+                a small place can alter world maps.
+              </p>
+            </div>
+            <button type="button" data-place="run"
+              class="open-place-modal mt-6 inline-flex items-center gap-2 text-sm font-bold text-vermilion hover:text-navy transition-colors">
+              <span>Read Historical Dossier</span>
+              <span>&rarr;</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Place 6: Mount Api & Marine Nature -->
+        <article
+          class="reveal group rounded-3xl bg-sand border border-navy/10 overflow-hidden shadow-sm hover:shadow-editorial transition-all flex flex-col">
+          <div
+            class="h-48 bg-gradient-to-br from-vermilion via-[#9C3318] to-navy relative overflow-hidden p-5 flex flex-col justify-between">
+            <img src="mountapi.png" alt="Fort Belgica saat matahari terbenam di Banda Neira"
+              class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+            <!-- Overlay gradasi tipis agar teks putih di atas langit senja tetap terbaca jelas -->
+            <div class="absolute inset-0 bg-gradient-to-t from-navy/85 via-navy/20 to-navy/55"></div>
+            <div class="relative flex items-center justify-between">
+              <span class="font-mono text-[11px] px-3 py-1 rounded-full bg-parchment text-navy font-bold">06 &bull;
+                Nature</span>
+              <span class="font-mono text-[11px] text-parchment/85">656m Elevation</span>
+            </div>
+            <p class="relative font-mono text-xs text-parchment/85">Volcanic Peak &amp; Lava-Flow Reefs</p>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-serif font-bold text-2xl text-navy group-hover:text-vermilion transition-colors">Mount Api
+                &amp; Marine Nature</h3>
+              <p class="text-sm text-navy/75 mt-2 leading-relaxed">
+                The symmetrical volcanic cone that defines Banda's skyline, flanked by crystal-clear waters where
+                vibrant hard corals thrive atop 1988 lava flows.
+              </p>
+            </div>
+            <button type="button" data-place="mountapi"
+              class="open-place-modal mt-6 inline-flex items-center gap-2 text-sm font-bold text-vermilion hover:text-navy transition-colors">
+              <span>Read Historical Dossier</span>
+              <span>&rarr;</span>
+            </button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       7. SECTION 05 — SAMPLE ITINERARY ("Four days that make sense")
+  ====================================================================== -->
+  <section id="itinerary" class="py-20 lg:py-28 bg-sand/60 border-b border-navy/10">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="reveal text-center max-w-2xl mx-auto mb-12">
+        <span class="font-mono text-xs uppercase tracking-[0.2em] text-vermilion font-semibold">
+          05 &mdash; Slow-Travel Pacing
+        </span>
+        <h2 class="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-navy mt-3">
+          Four days that make sense
+        </h2>
+        <p class="text-navy/75 text-sm sm:text-base mt-3">
+          Designed around unhurried walking distances, calm morning crossings, and meaningful encounters with Banda's
+          custodians.
+        </p>
+      </div>
+
+      <!-- Interactive Day Switcher Tabs -->
+      <div class="reveal grid grid-cols-2 lg:grid-cols-4 gap-3 mb-8" role="tablist" aria-label="4-Day Sample Itinerary">
+        <button type="button" data-day="1"
+          class="day-tab active p-4 rounded-2xl text-left border-2 border-navy bg-navy text-parchment shadow-md transition-all">
+          <span class="font-mono text-[11px] uppercase tracking-widest text-ochre block">Day 01</span>
+          <span class="font-serif font-bold text-base sm:text-lg mt-0.5 block">Forts &amp; Harbour</span>
+        </button>
+
+        <button type="button" data-day="2"
+          class="day-tab p-4 rounded-2xl text-left border-2 border-navy/15 bg-parchment text-navy hover:border-navy/40 transition-all">
+          <span class="font-mono text-[11px] uppercase tracking-widest text-vermilion block">Day 02</span>
+          <span class="font-serif font-bold text-base sm:text-lg mt-0.5 block">Exile &amp; Nutmeg</span>
+        </button>
+
+        <button type="button" data-day="3"
+          class="day-tab p-4 rounded-2xl text-left border-2 border-navy/15 bg-parchment text-navy hover:border-navy/40 transition-all">
+          <span class="font-mono text-[11px] uppercase tracking-widest text-cerulean block">Day 03</span>
+          <span class="font-serif font-bold text-base sm:text-lg mt-0.5 block">Voyage to Run</span>
+        </button>
+
+        <button type="button" data-day="4"
+          class="day-tab p-4 rounded-2xl text-left border-2 border-navy/15 bg-parchment text-navy hover:border-navy/40 transition-all">
+          <span class="font-mono text-[11px] uppercase tracking-widest text-teal block">Day 04</span>
+          <span class="font-serif font-bold text-base sm:text-lg mt-0.5 block">Mount Api &amp; Sea</span>
+        </button>
+      </div>
+
+      <!-- Dynamic Day Schedule Card -->
+      <div id="itinerary-panel"
+        class="reveal rounded-3xl bg-parchment p-6 sm:p-10 border border-navy/10 shadow-editorial">
+        <div class="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-navy/10">
+          <div>
+            <span id="day-badge" class="font-mono text-xs uppercase tracking-widest text-vermilion font-bold">
+              Day 01 &bull; On Foot Around Neira Town
+            </span>
+            <h3 id="day-heading" class="font-serif font-bold text-2xl sm:text-3xl text-navy mt-1">
+              Arrival by Sea &amp; Sunset on the Bastions
+            </h3>
+          </div>
+          <span id="day-logistics"
+            class="font-mono text-xs px-3.5 py-2 rounded-xl bg-sand text-navy border border-navy/10 font-semibold">
+            Logistics: 100% Walkable &bull; Local Historian Guide
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+          <!-- Morning -->
+          <div class="p-5 rounded-2xl bg-sand/80 border border-navy/10">
+            <span
+              class="font-mono text-xs uppercase tracking-wider text-ochre bg-navy px-2.5 py-1 rounded font-bold inline-block">
+              Morning
+            </span>
+            <h4 id="day-morning-title" class="font-serif font-bold text-lg text-navy mt-3">
+              Harbour Welcome &amp; Homestay Check-in
+            </h4>
+            <p id="day-morning-desc" class="text-sm text-navy/75 mt-2 leading-relaxed">
+              Arrive at Banda Neira port with Mount Api rising directly across the channel. Settle into a family-run
+              heritage homestay and enjoy freshly brewed Banda nutmeg coffee.
+            </p>
+          </div>
+
+          <!-- Afternoon -->
+          <div class="p-5 rounded-2xl bg-sand/80 border border-navy/10">
+            <span
+              class="font-mono text-xs uppercase tracking-wider text-parchment bg-teal px-2.5 py-1 rounded font-bold inline-block">
+              Afternoon
+            </span>
+            <h4 id="day-afternoon-title" class="font-serif font-bold text-lg text-navy mt-3">
+              Fort Nassau &amp; Istana Mini Walk
+            </h4>
+            <p id="day-afternoon-desc" class="text-sm text-navy/75 mt-2 leading-relaxed">
+              Stroll past waterfront Fort Nassau, the old Dutch church, and Istana Mini's marble colonnade while tracing
+              the 17th-century Asian spice trade links to Melaka.
+            </p>
+          </div>
+
+          <!-- Evening -->
+          <div class="p-5 rounded-2xl bg-sand/80 border border-navy/10">
+            <span
+              class="font-mono text-xs uppercase tracking-wider text-parchment bg-vermilion px-2.5 py-1 rounded font-bold inline-block">
+              Evening
+            </span>
+            <h4 id="day-evening-title" class="font-serif font-bold text-lg text-navy mt-3">
+              Golden Hour at Fort Belgica
+            </h4>
+            <p id="day-evening-desc" class="text-sm text-navy/75 mt-2 leading-relaxed">
+              Ascend the stone ramparts of pentagonal Fort Belgica as the sun dips behind Mount Api, followed by a
+              traditional Bandanese spiced seafood dinner.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       8. SECTION 06 — CURATED JOURNEYS ("Choose your journey")
+  ====================================================================== -->
+  <section id="journeys" class="py-20 lg:py-20 bg-navy text-parchment relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="reveal flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-14">
+        <div class="max-w-2xl">
+          <span class="font-mono text-xs uppercase tracking-[0.2em] text-ochre font-semibold">
+            06 &mdash; Curated Expedition Tiers
+          </span>
+          <h2 class="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-parchment mt-3">
+            Choose your journey
+          </h2>
+          <p class="text-parchment/80 text-base sm:text-lg mt-3">
+            Every tier directly supports Banda's local homestay hosts, boat captains, guides, and nutmeg growers.
+          </p>
+        </div>
+
+        <div class="px-4 py-2.5 rounded-xl bg-parchment/10 border border-ochre/30 text-xs font-mono text-ochre">
+          Note: Final rates confirmed with local Banda operators before launch
+        </div>
+      </div>
+
+      <!-- 3 Package Cards -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+        <!-- Tier 01: Budget -->
+        <div
+          class="reveal rounded-3xl bg-parchment/5 border border-parchment/15 p-7 sm:p-8 flex flex-col justify-between hover:border-parchment/35 transition-all">
+          <div>
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-xs uppercase tracking-widest text-parchment/70">Tier 01 &bull; Budget</span>
+              <span class="font-mono text-xs px-2.5 py-1 rounded bg-parchment/10 text-parchment">Slow Travel</span>
+            </div>
+            <h3 class="font-serif font-bold text-2xl sm:text-3xl text-parchment mt-3">Heritage Walker</h3>
+            <p class="text-xs sm:text-sm text-ochre font-semibold mt-1">
+              Best for independent culture seekers
+            </p>
+            <p class="text-sm text-parchment/75 mt-4 leading-relaxed">
+              An intimate, low-footprint stay focused on Banda Neira's walkable historic quarter, local hospitality, and
+              authentic home cooking.
+            </p>
+
+            <ul class="mt-6 space-y-3 text-sm text-parchment/85 border-t border-parchment/15 pt-6">
+              <li class="flex items-start gap-2.5">
+                <span class="text-ochre font-bold">&check;</span>
+                <span>Family-run Banda Neira heritage homestay</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-ochre font-bold">&check;</span>
+                <span>Walkable Fort Belgica, Nassau &amp; exile house trails</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-ochre font-bold">&check;</span>
+                <span>Local nutmeg jam &amp; spice culinary tasting</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-ochre font-bold">&check;</span>
+                <span>Harbour arrival &amp; departure coordination</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-parchment/15">
+            <div class="flex items-baseline justify-between mb-4">
+              <span class="font-mono text-xs text-parchment/60 uppercase">Starting From</span>
+              <span class="font-mono text-sm font-bold text-parchment">Rate TBC (Operator)</span>
+            </div>
+            <button type="button" data-tier="Budget — Heritage Walker"
+              class="select-tier-btn w-full py-3.5 px-6 rounded-full border border-parchment/40 text-parchment font-bold text-sm hover:bg-parchment hover:text-navy transition-all">
+              Select Package &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- Tier 02: Mid-Range (Highlighted Most Chosen) -->
+        <div
+          class="reveal rounded-3xl bg-gradient-to-b from-teal to-[#0D383B] border-2 border-ochre p-7 sm:p-8 flex flex-col justify-between shadow-2xl relative lg:-translate-y-3">
+          <div
+            class="absolute -top-3.5 right-6 px-4 py-1 rounded-full bg-ochre text-navy font-mono text-xs font-bold uppercase tracking-wider shadow-md">
+            Most Chosen
+          </div>
+
+          <div>
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-xs uppercase tracking-widest text-ochre">Tier 02 &bull; Mid-Range</span>
+              <span class="font-mono text-xs px-2.5 py-1 rounded bg-navy/50 text-parchment">Complete Story</span>
+            </div>
+            <h3 class="font-serif font-bold text-2xl sm:text-3xl text-parchment mt-3">Spice Route Explorer</h3>
+            <p class="text-xs sm:text-sm text-ochre font-semibold mt-1">
+              Best for history &amp; photography travellers
+            </p>
+            <p class="text-sm text-parchment/85 mt-4 leading-relaxed">
+              Our signature guided expedition combining heritage guesthouse comfort, historian storytelling, nutmeg
+              groves, and a voyage to Run Island.
+            </p>
+
+            <ul class="mt-6 space-y-3 text-sm text-parchment/95 border-t border-parchment/20 pt-6">
+              <li class="flex items-start gap-2.5">
+                <span class="text-ochre font-bold">&check;</span>
+                <span>Colonial-style heritage guesthouse accommodation</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-ochre font-bold">&check;</span>
+                <span>Accredited local historian &amp; heritage guide</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-ochre font-bold">&check;</span>
+                <span>Lonthoir nutmeg plantation &amp; farmer visit</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-ochre font-bold">&check;</span>
+                <span>Full-day boat excursion to Pulau Run &amp; snorkelling</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-parchment/20">
+            <div class="flex items-baseline justify-between mb-4">
+              <span class="font-mono text-xs text-parchment/70 uppercase">Starting From</span>
+              <span class="font-mono text-sm font-bold text-ochre">Rate TBC (Operator)</span>
+            </div>
+            <button type="button" data-tier="Mid-Range — Spice Route Explorer"
+              class="select-tier-btn w-full py-3.5 px-6 rounded-full bg-ochre text-navy font-bold text-sm shadow-lg hover:bg-ochre/90 transition-all">
+              Select Package &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- Tier 03: Premium -->
+        <div
+          class="reveal rounded-3xl bg-parchment/5 border border-parchment/15 p-7 sm:p-8 flex flex-col justify-between hover:border-parchment/35 transition-all">
+          <div>
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-xs uppercase tracking-widest text-parchment/70">Tier 03 &bull; Premium</span>
+              <span class="font-mono text-xs px-2.5 py-1 rounded bg-cerulean/30 text-[#88D1F7]">Private &amp;
+                Dive</span>
+            </div>
+            <h3 class="font-serif font-bold text-2xl sm:text-3xl text-parchment mt-3">Archipelago Private Expedition
+            </h3>
+            <p class="text-xs sm:text-sm text-ochre font-semibold mt-1">
+              Best for divers &amp; private explorers
+            </p>
+            <p class="text-sm text-parchment/75 mt-4 leading-relaxed">
+              Bespoke private boat charters across outer coral atolls, guided scuba diving over volcanic walls, and
+              curated evening heritage sessions.
+            </p>
+
+            <ul class="mt-6 space-y-3 text-sm text-parchment/85 border-t border-parchment/15 pt-6">
+              <li class="flex items-start gap-2.5">
+                <span class="text-ochre font-bold">&check;</span>
+                <span>Boutique waterfront heritage stay with bay views</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-ochre font-bold">&check;</span>
+                <span>Private boat island-hopping (Run, Ai &amp; Hatta)</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-ochre font-bold">&check;</span>
+                <span>Guided coral reef diving &amp; lava-flow snorkelling</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-ochre font-bold">&check;</span>
+                <span>Private historical curator &amp; sunset dining</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-parchment/15">
+            <div class="flex items-baseline justify-between mb-4">
+              <span class="font-mono text-xs text-parchment/60 uppercase">Starting From</span>
+              <span class="font-mono text-sm font-bold text-parchment">Rate TBC (Operator)</span>
+            </div>
+            <button type="button" data-tier="Premium — Archipelago Private Expedition"
+              class="select-tier-btn w-full py-3.5 px-6 rounded-full border border-parchment/40 text-parchment font-bold text-sm hover:bg-parchment hover:text-navy transition-all">
+              Select Package &rarr;
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       9. SECTION 07 — GETTING THERE & TRAVEL ESSENTIALS ("Far away, and part of the story")
+  ====================================================================== -->
+  <section id="getting-there" class="py-20 lg:py-28 bg-parchment paper-texture border-b border-navy/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="reveal max-w-3xl mb-14">
+        <span class="font-mono text-xs uppercase tracking-[0.2em] text-vermilion font-semibold">
+          07 &mdash; Journey Logistics &amp; Stewardship
+        </span>
+        <h2 class="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-navy mt-3">
+          Far away, and part of the story
+        </h2>
+        <p class="text-navy/75 text-base sm:text-lg mt-3">
+          Reaching Banda Neira requires intention—protecting the island from mass tourism and rewarding travellers with
+          unspoiled authenticity.
+        </p>
+      </div>
+
+      <!-- 4-Step Route Progression Bar -->
+      <div class="reveal rounded-3xl bg-sand p-6 sm:p-8 border border-navy/10 shadow-editorial mb-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 relative">
+          <!-- Step 1 -->
+          <div class="relative p-5 rounded-2xl bg-parchment border border-navy/10">
+            <div class="flex items-center justify-between mb-3">
+              <span
+                class="w-9 h-9 rounded-full bg-navy text-ochre font-mono font-bold text-sm flex items-center justify-center">01</span>
+              <span class="font-mono text-[11px] text-navy/50 uppercase">Departure</span>
+            </div>
+            <h3 class="font-serif font-bold text-xl text-navy">Home City</h3>
+            <p class="text-xs sm:text-sm text-navy/75 mt-1.5 leading-relaxed">
+              Fly from Jakarta, Kuala Lumpur, Singapore, or regional Asian hubs toward eastern Indonesia.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="relative p-5 rounded-2xl bg-parchment border border-navy/10">
+            <div class="flex items-center justify-between mb-3">
+              <span
+                class="w-9 h-9 rounded-full bg-teal text-parchment font-mono font-bold text-sm flex items-center justify-center">02</span>
+              <span class="font-mono text-[11px] text-teal font-semibold uppercase">Gateway</span>
+            </div>
+            <h3 class="font-serif font-bold text-xl text-navy">Ambon (AMQ)</h3>
+            <p class="text-xs sm:text-sm text-navy/75 mt-1.5 leading-relaxed">
+              Arrive at Pattimura Airport in Ambon, the maritime gateway to the Maluku islands.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="relative p-5 rounded-2xl bg-parchment border-2 border-vermilion/50">
+            <div class="flex items-center justify-between mb-3">
+              <span
+                class="w-9 h-9 rounded-full bg-vermilion text-parchment font-mono font-bold text-sm flex items-center justify-center">03</span>
+              <span class="font-mono text-[11px] text-vermilion font-semibold uppercase">Sea / Air</span>
+            </div>
+            <h3 class="font-serif font-bold text-xl text-navy">Banda Neira</h3>
+            <p class="text-xs sm:text-sm text-navy/75 mt-1.5 leading-relaxed">
+              Connect via fast ferry, Pelni ship, or pioneer aircraft from Ambon (always verify seasonal operator
+              schedules).
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="relative p-5 rounded-2xl bg-parchment border border-navy/10">
+            <div class="flex items-center justify-between mb-3">
+              <span
+                class="w-9 h-9 rounded-full bg-ochre text-navy font-mono font-bold text-sm flex items-center justify-center">04</span>
+              <span class="font-mono text-[11px] text-nutmeg font-semibold uppercase">Explore</span>
+            </div>
+            <h3 class="font-serif font-bold text-xl text-navy">Day Trips</h3>
+            <p class="text-xs sm:text-sm text-navy/75 mt-1.5 leading-relaxed">
+              Walk the forts on foot and board traditional wooden boats to Run Island, Lonthoir, and Mount Api.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 "Good to Know" Responsibility Cards -->
+      <div class="reveal grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Card 1: Best Season -->
+        <div class="p-6 sm:p-7 rounded-2xl bg-parchment border border-navy/15 shadow-sm">
+          <div class="w-11 h-11 rounded-xl bg-cerulean/15 text-cerulean flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+            </svg>
+          </div>
+          <span class="font-mono text-[11px] uppercase tracking-widest text-cerulean font-bold">Good to Know &bull;
+            01</span>
+          <h3 class="font-serif font-bold text-xl text-navy mt-1">Best Season</h3>
+          <p class="text-sm text-navy/75 mt-2 leading-relaxed">
+            <strong>March–April</strong> and <strong>October–November</strong> offer the calmest Banda Sea crossings,
+            crystalline underwater visibility, and clear views of Mount Api.
+          </p>
+        </div>
+
+        <!-- Card 2: Volcano & Sea Safety -->
+        <div class="p-6 sm:p-7 rounded-2xl bg-parchment border border-navy/15 shadow-sm">
+          <div class="w-11 h-11 rounded-xl bg-vermilion/15 text-vermilion flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+            </svg>
+          </div>
+          <span class="font-mono text-[11px] uppercase tracking-widest text-vermilion font-bold">Good to Know &bull;
+            02</span>
+          <h3 class="font-serif font-bold text-xl text-navy mt-1">Volcano &amp; Sea Safety</h3>
+          <p class="text-sm text-navy/75 mt-2 leading-relaxed">
+            Mount Api is an active volcano and outer channels carry strong currents. Always climb and dive with licensed
+            local Banda guides and check marine advisories.
+          </p>
+        </div>
+
+        <!-- Card 3: Respect Local Communities -->
+        <div class="p-6 sm:p-7 rounded-2xl bg-parchment border border-navy/15 shadow-sm">
+          <div class="w-11 h-11 rounded-xl bg-teal/15 text-teal flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+            </svg>
+          </div>
+          <span class="font-mono text-[11px] uppercase tracking-widest text-teal font-bold">Good to Know &bull;
+            03</span>
+          <h3 class="font-serif font-bold text-xl text-navy mt-1">Respect Local Communities</h3>
+          <p class="text-sm text-navy/75 mt-2 leading-relaxed">
+            We champion zero mass tourism: dress modestly in villages, never touch living coral reefs, and purchase
+            nutmeg directly from local family growers.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       10. SECTION 08 — EXCLUSIVE TRIP ENQUIRY & CAMPAIGN FOOTER
+  ====================================================================== -->
+  <section id="enquiry" class="py-20 lg:py-28 bg-gradient-to-b from-navy to-[#09162B] text-parchment">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+        <!-- Left Closing Editorial Column -->
+        <div class="reveal lg:col-span-5 space-y-6">
+          <div class="inline-flex items-center gap-3">
+            <svg class="w-16 h-16" viewBox="0 0 320 310" aria-label="Gems in Banda Neira Footer Seal">
+              <use href="#gems-logo-badge" />
+            </svg>
+            <div>
+              <span class="font-mono text-xs uppercase tracking-widest text-ochre block">Visit Indonesia 2026</span>
+              <span class="font-serif font-bold text-xl text-parchment">Truly Asia 2026</span>
+            </div>
+          </div>
+
+          <h2 class="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-parchment leading-tight">
+            Small island, giant history. <span class="text-ochre italic font-editorial">Ready when you are.</span>
+          </h2>
+
+          <p class="text-sm sm:text-base text-parchment/80 leading-relaxed">
+            Share your preferred travel window and journey tier. Our Banda Neira local coordinator team will prepare a
+            tailored itinerary, seasonal Ambon transfer options, and confirmed community operator rates.
+          </p>
+
+          <!-- Campaign Social & Hashtag Block -->
+          <div class="p-5 rounded-2xl bg-parchment/5 border border-parchment/15 space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="font-mono text-xs text-ochre font-bold">@gemsinbandaneira</span>
+              <button type="button" id="copy-hashtags-btn"
+                class="font-mono text-[11px] px-2.5 py-1 rounded bg-parchment/10 hover:bg-ochre hover:text-navy transition-colors">
+                Copy Hashtags
+              </button>
+            </div>
+            <p id="campaign-hashtags" class="font-mono text-xs text-parchment/75 leading-relaxed">
+              #BandaNeira #PulauKecilSejarahRaksasa #TrulyAsia2026 #VisitIndonesia2026 #SpiceRoute #HeritageTravel
+            </p>
+            <div class="pt-2 flex flex-wrap gap-2">
+              <button type="button" id="open-campaign-kit-btn"
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-teal text-parchment text-xs font-bold border border-parchment/20 hover:bg-cerulean transition-colors">
+                <span>Preview IG, Email &amp; Merch Campaign</span>
+                <span>&nearr;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Functional Trip Enquiry Form & Confirmation Dossier -->
+        <div class="reveal lg:col-span-7">
+          <div class="rounded-3xl bg-parchment text-navy p-7 sm:p-10 shadow-2xl border-2 border-ochre/40">
+            <!-- Form State -->
+            <form id="trip-enquiry-form" class="space-y-5">
+              <div class="border-b border-navy/10 pb-4">
+                <span class="font-mono text-xs uppercase tracking-widest text-vermilion font-bold">
+                  Expedition Dispatch
+                </span>
+                <h3 class="font-serif font-bold text-2xl sm:text-3xl text-navy mt-1">
+                  Request Your Banda Neira Journey Dossier
+                </h3>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="fullName" class="block text-xs font-bold uppercase tracking-wider text-navy/80 mb-1.5">
+                    Full Name *
+                  </label>
+                  <input id="fullName" name="fullName" type="text" required placeholder="e.g. Nadhif Alfath"
+                    class="w-full px-4 py-3 rounded-xl bg-sand border border-navy/15 text-navy placeholder-navy/40 focus:outline-none focus:border-vermilion focus:ring-2 focus:ring-vermilion/20 text-sm" />
+                </div>
+
+                <div>
+                  <label for="email" class="block text-xs font-bold uppercase tracking-wider text-navy/80 mb-1.5">
+                    Email Address *
+                  </label>
+                  <input id="email" name="email" type="email" required placeholder="traveller@example.com"
+                    class="w-full px-4 py-3 rounded-xl bg-sand border border-navy/15 text-navy placeholder-navy/40 focus:outline-none focus:border-vermilion focus:ring-2 focus:ring-vermilion/20 text-sm" />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="departureCity"
+                    class="block text-xs font-bold uppercase tracking-wider text-navy/80 mb-1.5">
+                    Departure City *
+                  </label>
+                  <select id="departureCity" name="departureCity"
+                    class="w-full px-4 py-3 rounded-xl bg-sand border border-navy/15 text-navy focus:outline-none focus:border-vermilion focus:ring-2 focus:ring-vermilion/20 text-sm">
+                    <option value="Kuala Lumpur (KUL)">Kuala Lumpur (KUL)</option>
+                    <option value="Jakarta (CGK)">Jakarta (CGK)</option>
+                    <option value="Singapore (SIN)">Singapore (SIN)</option>
+                    <option value="Ambon (AMQ)">Ambon (AMQ)</option>
+                    <option value="Other Asian / International City">Other Asian / International City</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="travelMonth" class="block text-xs font-bold uppercase tracking-wider text-navy/80 mb-1.5">
+                    Preferred Travel Month *
+                  </label>
+                  <select id="travelMonth" name="travelMonth"
+                    class="w-full px-4 py-3 rounded-xl bg-sand border border-navy/15 text-navy focus:outline-none focus:border-vermilion focus:ring-2 focus:ring-vermilion/20 text-sm">
+                    <option value="October 2026 (Peak Calm Season)">October 2026 (Peak Calm Season)</option>
+                    <option value="November 2026 (Peak Calm Season)">November 2026 (Peak Calm Season)</option>
+                    <option value="December 2026 (Open Trip 19–23 Dec)">December 2026 (Open Trip 19–23 Dec)</option>
+                    <option value="March 2027 (Spring Calm Season)">March 2027 (Spring Calm Season)</option>
+                    <option value="April 2027 (Spring Calm Season)">April 2027 (Spring Calm Season)</option>
+                    <option value="Flexible / Custom Dates">Flexible / Custom Dates</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label for="journeyTier" class="block text-xs font-bold uppercase tracking-wider text-navy/80 mb-1.5">
+                  Journey Tier *
+                </label>
+                <select id="journeyTier" name="journeyTier"
+                  class="w-full px-4 py-3 rounded-xl bg-sand border border-navy/15 text-navy focus:outline-none focus:border-vermilion focus:ring-2 focus:ring-vermilion/20 text-sm font-semibold">
+                  <option value="Mid-Range — Spice Route Explorer">Mid-Range — Spice Route Explorer (Most Chosen)
+                  </option>
+                  <option value="Budget — Heritage Walker">Budget — Heritage Walker (Homestay &amp; Walking)</option>
+                  <option value="Premium — Archipelago Private Expedition">Premium — Archipelago Private Expedition
+                    (Dive &amp; Charter)</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="notes" class="block text-xs font-bold uppercase tracking-wider text-navy/80 mb-1.5">
+                  Notes / Historical &amp; Marine Interests
+                </label>
+                <textarea id="notes" name="notes" rows="3"
+                  placeholder="Tell us if you'd like to include Run Island, Mount Api sunrise hike, scuba diving, or nutmeg farm visits..."
+                  class="w-full px-4 py-3 rounded-xl bg-sand border border-navy/15 text-navy placeholder-navy/40 focus:outline-none focus:border-vermilion focus:ring-2 focus:ring-vermilion/20 text-sm"></textarea>
+              </div>
+
+              <button type="submit"
+                class="w-full py-4 px-8 rounded-full bg-ochre text-navy font-bold text-base shadow-lg hover:bg-ochre/90 hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2">
+                <span>Send Expedition Enquiry</span>
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.4" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                </svg>
+              </button>
+            </form>
+
+            <!-- Personalized Gold-Bordered Expedition Dossier Confirmation (Hidden until submit) -->
+            <div id="enquiry-confirmation" class="hidden space-y-6">
+              <div
+                class="p-6 sm:p-8 rounded-2xl bg-navy text-parchment border-2 border-ochre shadow-xl relative overflow-hidden">
+                <div class="flex flex-wrap items-center justify-between gap-2 pb-4 border-b border-parchment/15">
+                  <span class="font-mono text-xs uppercase tracking-widest text-ochre font-bold">
+                    Banda Neira Expedition Dossier
+                  </span>
+                  <span id="dossier-ref" class="font-mono text-xs px-3 py-1 rounded bg-ochre text-navy font-bold">
+                    REF: BN-2026-8492
+                  </span>
+                </div>
+
+                <h3 class="font-serif font-bold text-2xl sm:text-3xl text-parchment mt-4">
+                  Thank you, <span id="confirm-name" class="text-ochre italic">Traveller</span>.
+                </h3>
+                <p class="text-sm text-parchment/80 mt-2 leading-relaxed">
+                  Your expedition request for <strong class="text-parchment">Pulau Kecil, Sejarah Raksasa</strong> has
+                  been logged. Our local Banda Neira heritage desk will reach out to <span id="confirm-email"
+                    class="underline text-ochre"></span> with confirmed Ambon ferry/flight schedules and operator rates.
+                </p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-6 pt-5 border-t border-parchment/15 text-xs">
+                  <div class="p-3 rounded-xl bg-parchment/5">
+                    <span class="font-mono text-parchment/55 block">DEPARTURE HUB</span>
+                    <span id="confirm-city" class="font-bold text-parchment mt-0.5 block"></span>
+                  </div>
+                  <div class="p-3 rounded-xl bg-parchment/5">
+                    <span class="font-mono text-parchment/55 block">TRAVEL WINDOW</span>
+                    <span id="confirm-month" class="font-bold text-parchment mt-0.5 block"></span>
+                  </div>
+                  <div class="p-3 rounded-xl bg-parchment/5 sm:col-span-2">
+                    <span class="font-mono text-parchment/55 block">SELECTED JOURNEY TIER</span>
+                    <span id="confirm-tier" class="font-bold text-ochre mt-0.5 block"></span>
+                  </div>
+                </div>
+              </div>
+
+              <button type="button" id="reset-enquiry-btn"
+                class="px-5 py-2.5 rounded-full border border-navy/25 text-navy text-xs font-bold hover:bg-sand transition-colors">
+                &larr; Modify or Submit Another Enquiry
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <footer
+        class="mt-20 pt-8 border-t border-parchment/15 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-parchment/65">
+        <div class="flex items-center gap-3">
+          <span class="font-serif font-bold text-parchment text-sm">Gems in Banda Neira</span>
+          <span>&bull;</span>
+          <span>Visit Indonesia 2026 &bull; Truly Asia 2026</span>
+        </div>
+
+        <div class="flex flex-col items-center md:items-end gap-1 font-mono text-[11px] text-center md:text-right">
+          <div>
+            Advertising Design &bull; Group 3 Campaign &bull; Prices &amp; schedules to be confirmed with local
+            operators
+          </div>
+          <div class="text-parchment/85">
+            Nadhif Alfath Radya Putra &bull; Mohammad Akmal Farrel &bull; Aufa Rifa Irtafa Jatmiko
+          </div>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       MODAL 1: HISTORICAL LANDMARK DOSSIER MODAL (Six Places)
+  ====================================================================== -->
+  <div id="place-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-navy/80 backdrop-blur-sm"
+    role="dialog" aria-modal="true" aria-labelledby="modal-place-title">
+    <div
+      class="relative w-full max-w-2xl rounded-3xl bg-parchment text-navy p-6 sm:p-8 shadow-2xl border-2 border-ochre/60 max-h-[90vh] overflow-y-auto">
+      <button type="button" id="close-place-modal" aria-label="Close Historical Dossier"
+        class="absolute top-5 right-5 w-10 h-10 rounded-full bg-sand text-navy hover:bg-vermilion hover:text-parchment flex items-center justify-center font-bold transition-colors">
+        &times;
+      </button>
+
+      <span id="modal-place-badge"
+        class="font-mono text-xs uppercase tracking-widest px-3 py-1 rounded-full bg-vermilion/15 text-vermilion font-bold">
+        Historical Dossier
+      </span>
+      <h3 id="modal-place-title" class="font-serif font-bold text-2xl sm:text-3xl text-navy mt-3">
+        Landmark Title
+      </h3>
+      <p id="modal-place-subtitle" class="font-editorial italic text-lg text-teal font-semibold mt-0.5">
+        Subtitle
+      </p>
+
+      <div class="mt-5 space-y-4 text-sm sm:text-base text-navy/85 leading-relaxed">
+        <p id="modal-place-story"></p>
+        <div class="p-4 rounded-2xl bg-sand border border-navy/10">
+          <span class="font-mono text-xs uppercase tracking-wider text-nutmeg font-bold block mb-1">
+            Visitor &amp; Stewardship Tip
+          </span>
+          <p id="modal-place-tip" class="text-xs sm:text-sm text-navy/80"></p>
+        </div>
+      </div>
+
+      <div class="mt-6 pt-4 border-t border-navy/10 flex flex-wrap items-center justify-between gap-3">
+        <span id="modal-place-coords" class="font-mono text-xs text-navy/60">4&deg;31'S 129&deg;54'E</span>
+        <button type="button" id="modal-add-to-enquiry"
+          class="px-6 py-2.5 rounded-full bg-ochre text-navy font-bold text-xs sm:text-sm hover:bg-ochre/90 transition-all">
+          Add Landmark to My Enquiry &rarr;
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       MODAL 2: INTEGRATED CAMPAIGN COLLATERAL PREVIEW (IG, Email & Merch)
+  ====================================================================== -->
+  <div id="campaign-kit-modal"
+    class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-navy/85 backdrop-blur-sm" role="dialog"
+    aria-modal="true" aria-labelledby="campaign-kit-title">
+    <div
+      class="relative w-full max-w-4xl rounded-3xl bg-parchment text-navy p-6 sm:p-8 shadow-2xl border-2 border-ochre max-h-[90vh] overflow-y-auto">
+      <button type="button" id="close-campaign-kit" aria-label="Close Campaign Preview"
+        class="absolute top-5 right-5 w-10 h-10 rounded-full bg-sand text-navy hover:bg-vermilion hover:text-parchment flex items-center justify-center font-bold transition-colors">
+        &times;
+      </button>
+
+      <span class="font-mono text-xs uppercase tracking-widest text-vermilion font-bold">
+        Integrated Advertising Deliverables
+      </span>
+      <h3 id="campaign-kit-title" class="font-serif font-bold text-2xl sm:text-3xl text-navy mt-1">
+        Gems in Banda Neira &mdash; Campaign Ecosystem
+      </h3>
+      <p class="text-sm text-navy/75 mt-1">
+        Unified visual identity across Instagram (@gemsinbandaneira), storytelling email dispatch, and sustainable
+        souvenir merchandise.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-6">
+        <!-- Instagram Open Trip Card -->
+        <div class="rounded-2xl bg-sand p-4 border border-navy/10 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-2 pb-3 border-b border-navy/10">
+              <svg class="w-7 h-7" viewBox="0 0 320 310">
+                <use href="#gems-logo-badge" />
+              </svg>
+              <span class="font-mono text-xs font-bold text-navy">@gemsinbandaneira</span>
+            </div>
+            <div class="mt-3 p-4 rounded-xl bg-gradient-to-br from-navy to-teal text-parchment text-center">
+              <span class="font-mono text-[10px] text-ochre uppercase">Open Trip Schedule 2026</span>
+              <p class="font-serif font-bold text-lg mt-1">19 – 23 December 2026</p>
+              <p class="text-[11px] text-parchment/80 mt-1">Meeting Point: Banda Neira Port</p>
+            </div>
+            <p class="text-xs text-navy/80 mt-3 leading-relaxed">
+              <strong>Caption:</strong> READY FOR THE ULTIMATE ESCAPE? Tracing historical footsteps and the natural
+              charm of Banda Neira.
+            </p>
+          </div>
+          <span class="font-mono text-[10px] text-vermilion font-bold mt-3 block">Instagram Single Post Series</span>
+        </div>
+
+        <!-- Email Advertisement Card -->
+        <div class="rounded-2xl bg-sand p-4 border border-navy/10 flex flex-col justify-between">
+          <div>
+            <div class="pb-3 border-b border-navy/10">
+              <span class="font-mono text-[10px] uppercase text-teal font-bold">Email Subject Line</span>
+              <p class="font-bold text-xs text-navy mt-0.5">Plan your trip to Banda Neira</p>
+            </div>
+            <div class="mt-3 p-4 rounded-xl bg-parchment border border-navy/10">
+              <p class="font-serif font-bold text-base text-teal">The island where Melaka's spice story began</p>
+              <p class="text-xs text-navy/75 mt-2 leading-relaxed">
+                Long before nutmeg reached the markets of Melaka, it grew on one small island: Banda Neira. Walk the
+                same ground across History, Nature &amp; Community.
+              </p>
+            </div>
+          </div>
+          <span class="font-mono text-[10px] text-cerulean font-bold mt-3 block">Direct Storytelling EDM</span>
+        </div>
+
+        <!-- Sustainable Merchandise Card -->
+        <div class="rounded-2xl bg-sand p-4 border border-navy/10 flex flex-col justify-between">
+          <div>
+            <div class="pb-3 border-b border-navy/10">
+              <span class="font-mono text-[10px] uppercase text-nutmeg font-bold">Offline Presence</span>
+              <p class="font-bold text-xs text-navy mt-0.5">Eco-Souvenir Collection</p>
+            </div>
+            <div class="mt-3 flex flex-col items-center p-4 rounded-xl bg-parchment border border-navy/10 text-center">
+              <svg class="w-20 h-20" viewBox="0 0 320 310">
+                <use href="#gems-logo-badge" />
+              </svg>
+              <p class="font-serif font-bold text-sm text-navy mt-2">Tumbler &bull; Keychain &bull; Canvas Tote</p>
+              <p class="text-[11px] text-navy/70 mt-1">Plastic-free travel gear carrying the island's story home.</p>
+            </div>
+          </div>
+          <span class="font-mono text-[10px] text-nutmeg font-bold mt-3 block">Official Campaign Merchandise</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Banner (Replaces alert()) -->
+  <div id="toast-banner"
+    class="fixed bottom-5 right-5 z-50 hidden items-center gap-3 px-5 py-3.5 rounded-2xl bg-navy text-parchment border border-ochre shadow-2xl text-xs sm:text-sm font-medium">
+    <span class="w-2.5 h-2.5 rounded-full bg-ochre"></span>
+    <span id="toast-message">Action completed</span>
+  </div>
+
+  <!-- =====================================================================
+       INTERACTIVE JAVASCRIPT LOGIC
+  ====================================================================== -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Mobile Navigation Toggle
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const iconOpen = document.getElementById('menu-icon-open');
+      const iconClose = document.getElementById('menu-icon-close');
+
+      mobileMenuBtn.addEventListener('click', () => {
+        const isHidden = mobileMenu.classList.contains('hidden');
+        mobileMenu.classList.toggle('hidden', !isHidden);
+        iconOpen.classList.toggle('hidden', isHidden);
+        iconClose.classList.toggle('hidden', !isHidden);
+      });
+
+      document.querySelectorAll('.mobile-nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+          iconOpen.classList.remove('hidden');
+          iconClose.classList.add('hidden');
+        });
+      });
+
+      // 2. Scroll Reveal Observer
+      const revealEls = document.querySelectorAll('.reveal');
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+
+      revealEls.forEach(el => revealObserver.observe(el));
+
+      // 3. Toast Notification Helper (Never uses alert())
+      const toastBanner = document.getElementById('toast-banner');
+      const toastMessage = document.getElementById('toast-message');
+      let toastTimeout;
+
+      function showToast(msg) {
+        toastMessage.textContent = msg;
+        toastBanner.classList.remove('hidden');
+        toastBanner.classList.add('flex');
+        clearTimeout(toastTimeout);
+        toastTimeout = setTimeout(() => {
+          toastBanner.classList.add('hidden');
+          toastBanner.classList.remove('flex');
+        }, 3400);
+      }
+
+      // 4. Interactive 3-Node Spice Route Flow Diagram
+      const routeData = {
+        banda: {
+          badge: "4°31'S 129°54'E • Volcanic Cultivation",
+          era: 'Pre-1500s – 1850s',
+          title: 'Banda Neira: Sole Botanical Sanctuary of Nutmeg & Mace',
+          desc: "Grown exclusively in shaded volcanic groves under towering kenari trees, Banda's nutmeg and crimson mace commanded astronomical value—worth more than their weight in gold once they left Maluku shores."
+        },
+        melaka: {
+          badge: "2°11'N 102°15'E • Asian Maritime Emporium",
+          era: '15th – 17th Century',
+          title: 'Melaka Port: Where East & West Traded Banda Spices',
+          desc: 'Javanese and Malay junks carried Banda nutmeg across the Java Sea to Melaka, where Gujarati, Arab, Chinese, and European merchants exchanged textiles, porcelain, and silver for Maluku spices.'
+        },
+        global: {
+          badge: 'Silk & Spice Maritime Network • Global Impact',
+          era: '16th – 19th Century',
+          title: 'Global Markets: The Spice That Redrew World Maps',
+          desc: 'From the apothecaries of Venice and royal courts of Istanbul to London and Amsterdam, demand for Banda nutmeg sparked global naval expeditions and the historic 1667 Treaty of Breda.'
+        }
+      };
+
+      const routeButtons = document.querySelectorAll('.route-node-btn');
+      const routeBadge = document.getElementById('route-badge');
+      const routeEra = document.getElementById('route-era');
+      const routeTitle = document.getElementById('route-title');
+      const routeDesc = document.getElementById('route-desc');
+
+      routeButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const key = btn.getAttribute('data-route');
+          const info = routeData[key];
+          if (!info) return;
+
+          routeButtons.forEach(b => {
+            b.classList.remove('border-vermilion', 'bg-parchment', 'shadow-sm');
+            b.classList.add('border-navy/10', 'bg-parchment/60');
+          });
+          btn.classList.remove('border-navy/10', 'bg-parchment/60');
+          btn.classList.add('border-vermilion', 'bg-parchment', 'shadow-sm');
+
+          routeBadge.textContent = info.badge;
+          routeEra.textContent = info.era;
+          routeTitle.textContent = info.title;
+          routeDesc.textContent = info.desc;
+        });
+      });
+
+      // 5. Historical Timeline Era Filter
+      const eraFilterBtns = document.querySelectorAll('.era-filter-btn');
+      const timelineItems = document.querySelectorAll('.timeline-item');
+
+      eraFilterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const filter = btn.getAttribute('data-era-filter');
+
+          // Update tampilan tombol aktif
+          eraFilterBtns.forEach(b => {
+            b.classList.remove('bg-navy', 'text-parchment');
+            b.classList.add('bg-parchment', 'text-navy', 'border', 'border-navy/15');
+          });
+          btn.classList.remove('bg-parchment', 'text-navy', 'border', 'border-navy/15');
+          btn.classList.add('bg-navy', 'text-parchment');
+
+          // Filter item timeline (hapus & pasang ulang md:grid agar jalan di desktop)
+          timelineItems.forEach(item => {
+            const isMatch = filter === 'all' || item.getAttribute('data-era') === filter;
+            if (isMatch) {
+              item.classList.remove('hidden');
+              item.classList.add('md:grid', 'visible');
+            } else {
+              item.classList.add('hidden');
+              item.classList.remove('md:grid');
+            }
+          });
+        });
+      });
+
+      // 6. Interactive Archipelago Explorer
+      const islandsData = {
+        neira: {
+          tag: 'Heritage Capital',
+          distance: '0 km • Arrival Hub',
+          name: 'Banda Neira',
+          subtitle: 'Historic Town, Dutch Forts & Founding-Father Exile Houses',
+          summary: 'The cultural and administrative heart of the archipelago. Every landmark—from pentagonal Fort Belgica and waterfront Fort Nassau to Istana Mini and the exile houses of Hatta and Sjahrir—lies within a serene, walkable harbour town.',
+          bestfor: 'Walkable Heritage & Culture',
+          activity: 'Sunset at Fort Belgica'
+        },
+        api: {
+          tag: 'Active Volcano',
+          distance: '1.2 km • 5-Min Boat',
+          name: 'Gunung Api (Mount Api)',
+          subtitle: '656m Volcanic Cone & Lava-Flow Coral Reefs',
+          summary: 'Rising dramatically across the narrow Sonnegat channel, Mount Api rewards sunrise climbers with sweeping archipelago vistas while its submerged 1988 lava flow hosts extraordinarily fast-growing hard coral gardens.',
+          bestfor: 'Sunrise Trekking & Reefs',
+          activity: 'Guided Summit & Lava Dive'
+        },
+        besar: {
+          tag: 'Spice Heartland',
+          distance: '2.5 km • 10-Min Boat',
+          name: 'Banda Besar (Lonthoir)',
+          subtitle: 'Centuries-Old Nutmeg Plantations & Traditional Villages',
+          summary: 'The crescent-shaped largest island in the group, draped in lush forest canopies where multi-generational Banda families harvest nutmeg and mace under towering shade trees.',
+          bestfor: 'Agro-Heritage & Community',
+          activity: 'Nutmeg Grove Walk & Tasting'
+        },
+        run: {
+          tag: 'Treaty of Breda (1667)',
+          distance: '18 km • 45-Min Boat',
+          name: 'Pulau Run (Run Island)',
+          subtitle: 'The Tiny Island Traded for Manhattan',
+          summary: 'Once defended by English merchants against the VOC, Pulau Run was exchanged in 1667 for Manhattan. Today it remains a peaceful, car-free island ringed by white sandbars and crystal lagoons.',
+          bestfor: 'World History & Solitude',
+          activity: 'Sandbar Picnic & Snorkelling'
+        },
+        aihatta: {
+          tag: 'Marine Sanctuary',
+          distance: '12–24 km • Outer Atolls',
+          name: 'Pulau Ai & Pulau Hatta',
+          subtitle: 'Secluded Coral Atolls, Drop-Off Walls & Drift Diving',
+          summary: 'Flanking the western and eastern edges of the archipelago, Ai and Hatta (named after Mohammad Hatta) feature historic plantation ruins, sea-turtle nesting beaches, and dramatic pelagic reef walls.',
+          bestfor: 'Scuba Diving & Marine Life',
+          activity: 'Coral Wall Drift Dive'
+        }
+      };
+
+      let currentSelectedIsland = 'Banda Neira';
+
+      function selectIsland(islandKey) {
+        const data = islandsData[islandKey];
+        if (!data) return;
+        currentSelectedIsland = data.name;
+
+        document.getElementById('island-tag').textContent = data.tag;
+        document.getElementById('island-distance').textContent = data.distance;
+        document.getElementById('island-name').textContent = data.name;
+        document.getElementById('island-subtitle').textContent = data.subtitle;
+        document.getElementById('island-summary').textContent = data.summary;
+        document.getElementById('island-bestfor').textContent = data.bestfor;
+        document.getElementById('island-activity').textContent = data.activity;
+
+        document.querySelectorAll('.island-tab').forEach(tab => {
+          const active = tab.getAttribute('data-island') === islandKey;
+          tab.classList.toggle('bg-ochre', active);
+          tab.classList.toggle('text-navy', active);
+          tab.classList.toggle('bg-navy/50', !active);
+          tab.classList.toggle('text-parchment', !active);
+        });
+      }
+
+      document.querySelectorAll('.island-tab, .island-pin, .island-shape').forEach(el => {
+        el.addEventListener('click', () => {
+          const key = el.getAttribute('data-island');
+          selectIsland(key);
+        });
+      });
+
+      document.getElementById('island-enquire-btn').addEventListener('click', () => {
+        const notesField = document.getElementById('notes');
+        const addition = `Interested in visiting ${currentSelectedIsland}. `;
+        if (!notesField.value.includes(currentSelectedIsland)) {
+          notesField.value = addition + notesField.value;
+        }
+        document.getElementById('enquiry').scrollIntoView({ behavior: 'smooth' });
+        showToast(`Added ${currentSelectedIsland} to your enquiry notes.`);
+      });
+
+      // 7. Six Places Historical Dossier Modal
+      const placesDossier = {
+        belgica: {
+          badge: '01 • 17th-Century Citadel',
+          title: 'Fort Belgica',
+          subtitle: 'Pentagonal VOC Fortress Above Banda Bay (Built 1611)',
+          story: 'Designed with five symmetrical bastions and cylindrical watchtowers, Fort Belgica was built on a hilltop overlooking Banda Neira to safeguard the Dutch East India Company spice monopoly against rival European fleets. Its distinctive pentagon silhouette directly inspires the "Gems in Banda Neira" campaign badge.',
+          tip: 'Visit 45 minutes before sunset for golden light over Mount Api and bring a light windbreaker for the upper parapet breeze.',
+          coords: "4°31'42\"S 129°53'56\"E"
+        },
+        nassau: {
+          badge: '02 • Waterfront Bastion',
+          title: 'Fort Nassau',
+          subtitle: 'The First Dutch Fortification on Banda Neira (Built 1609)',
+          story: 'Constructed by Admiral Verhoeven in 1609 atop an abandoned 1529 Portuguese foundation, Fort Nassau sits directly beside the harbour. Its moss-covered volcanic stone walls stand as a quiet reminder of the early struggle for control over the Banda archipelago.',
+          tip: 'Combine your morning walk here with a visit to the nearby Kampung Baru fish market and harbour promenade.',
+          coords: "4°31'49\"S 129°53'54\"E"
+        },
+        istana: {
+          badge: '03 • Colonial Architecture',
+          title: 'Istana Mini (Mini Palace)',
+          subtitle: 'Neoclassical Administrative Seat of the Banda Islands',
+          story: 'Built in 1820 as the residence of the Dutch Resident (governor) of Banda, Istana Mini mirrors the grand proportions of Bogor Palace in miniature—complete with Tuscan columns, polished marble floors, and an iconic inscription etched into a windowpane by a 19th-century French officer.',
+          tip: 'Walk through the rear garden gate to view the historic flagpole plaza and surrounding heritage trees.',
+          coords: "4°31'52\"S 129°53'51\"E"
+        },
+        exile: {
+          badge: '04 • National Independence Heritage',
+          title: 'Hatta & Sjahrir Exile Houses',
+          subtitle: 'Preserved Residences of Indonesia’s Founding Fathers (1936–1942)',
+          story: 'Banished to remote Banda Neira by colonial authorities, Mohammad Hatta (Indonesia’s first Vice President) and Sutan Sjahrir (first Prime Minister) transformed their exile into an intellectual sanctuary—writing foundational essays on democracy and teaching local Bandanese children on their verandas.',
+          tip: 'Local caretakers preserve Hatta’s original desk, spectacles, gramophone, and personal library—please refrain from flash photography.',
+          coords: "4°31'46\"S 129°53'48\"E"
+        },
+        run: {
+          badge: '05 • Global Geopolitical Landmark',
+          title: 'Run Island (Pulau Run)',
+          subtitle: 'The Tiny Spice Island Traded for Manhattan in 1667',
+          story: 'Measuring barely 3 kilometres long, Pulau Run was the stage for fierce 17th-century rivalry between the English and Dutch East India Companies. Under the 1667 Treaty of Breda, England relinquished its claim to Run Island in exchange for Dutch-held Manhattan.',
+          tip: 'Depart early in the morning with a licensed local boat captain when the western Banda Sea swell is at its calmest.',
+          coords: "4°33'15\"S 129°41'05\"E"
+        },
+        mountapi: {
+          badge: '06 • Volcanic & Marine Ecology',
+          title: 'Mount Api & Marine Nature',
+          subtitle: '656m Active Stratovolcano & Lava-Flow Coral Gardens',
+          story: 'Mount Api ("Fire Mountain") rises straight out of the deep Banda Sea across from Neira town. Following its 1988 eruption, hard corals colonized the cooled underwater basalt lava flows at record speed—creating one of Indonesia’s healthiest coral ecosystems.',
+          tip: 'Begin the Mount Api hike at 04:30 AM with a certified local mountain guide, and always use reef-safe sunscreen when snorkelling.',
+          coords: "4°31'25\"S 129°52'26\"E"
+        }
+      };
+
+      const placeModal = document.getElementById('place-modal');
+      let activeModalPlaceName = '';
+
+      document.querySelectorAll('.open-place-modal').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const key = btn.getAttribute('data-place');
+          const d = placesDossier[key];
+          if (!d) return;
+
+          activeModalPlaceName = d.title;
+          document.getElementById('modal-place-badge').textContent = d.badge;
+          document.getElementById('modal-place-title').textContent = d.title;
+          document.getElementById('modal-place-subtitle').textContent = d.subtitle;
+          document.getElementById('modal-place-story').textContent = d.story;
+          document.getElementById('modal-place-tip').textContent = d.tip;
+          document.getElementById('modal-place-coords').textContent = d.coords;
+
+          placeModal.classList.remove('hidden');
+          placeModal.classList.add('flex');
+        });
+      });
+
+      document.getElementById('close-place-modal').addEventListener('click', () => {
+        placeModal.classList.add('hidden');
+        placeModal.classList.remove('flex');
+      });
+
+      placeModal.addEventListener('click', (e) => {
+        if (e.target === placeModal) {
+          placeModal.classList.add('hidden');
+          placeModal.classList.remove('flex');
+        }
+      });
+
+      document.getElementById('modal-add-to-enquiry').addEventListener('click', () => {
+        placeModal.classList.add('hidden');
+        placeModal.classList.remove('flex');
+        const notesField = document.getElementById('notes');
+        const noteText = `Please include ${activeModalPlaceName} in my itinerary. `;
+        if (!notesField.value.includes(activeModalPlaceName)) {
+          notesField.value = noteText + notesField.value;
+        }
+        document.getElementById('enquiry').scrollIntoView({ behavior: 'smooth' });
+        showToast(`Added ${activeModalPlaceName} to your enquiry.`);
+      });
+
+      // 8. Interactive 4-Day Sample Itinerary Switcher
+      const itineraryDays = {
+        1: {
+          badge: 'Day 01 • On Foot Around Neira Town',
+          heading: 'Arrival by Sea & Sunset on the Bastions',
+          logistics: 'Logistics: 100% Walkable • Local Historian Guide',
+          mTitle: 'Harbour Welcome & Homestay Check-in',
+          mDesc: 'Arrive at Banda Neira port with Mount Api rising directly across the channel. Settle into a family-run heritage homestay and enjoy freshly brewed Banda nutmeg coffee.',
+          aTitle: 'Fort Nassau & Istana Mini Walk',
+          aDesc: "Stroll past waterfront Fort Nassau, the old Dutch church, and Istana Mini's marble colonnade while tracing the 17th-century Asian spice trade links to Melaka.",
+          eTitle: 'Golden Hour at Fort Belgica',
+          eDesc: 'Ascend the stone ramparts of pentagonal Fort Belgica as the sun dips behind Mount Api, followed by a traditional Bandanese spiced seafood dinner.'
+        },
+        2: {
+          badge: 'Day 02 • Exile History & Nutmeg Plantations',
+          heading: 'Founding Fathers & The Fragrant Groves of Lonthoir',
+          logistics: 'Logistics: Short Ketinting Ferry & Foot • Farmer Visit',
+          mTitle: 'Hatta & Sjahrir Exile Houses',
+          mDesc: 'Morning guided tour through the preserved 1936–1942 residences of Mohammad Hatta and Sutan Sjahrir, exploring their libraries and independence writings.',
+          aTitle: 'Crossing to Banda Besar Nutmeg Groves',
+          aDesc: 'Take a 10-minute wooden boat across to Lonthoir to walk beneath centuries-old kenari and nutmeg trees with local growers harvesting crimson mace.',
+          eTitle: 'Nutmeg Jam & Spiced Culinary Evening',
+          eDesc: 'Sample homemade nutmeg fruit preserves, cinnamon tea, and Banda walnut (kenari) pastries with your homestay hosts.'
+        },
+        3: {
+          badge: 'Day 03 • Outer Archipelago Expedition',
+          heading: 'Sailing to Pulau Run — The Island Traded for Manhattan',
+          logistics: 'Logistics: Chartered Wooden Boat • Packed Island Lunch',
+          mTitle: 'Morning Crossing to Pulau Run',
+          mDesc: 'Set sail westward past Pulau Ai across turquoise Banda Sea waters to tiny Pulau Run, site of the historic 1667 Treaty of Breda.',
+          aTitle: 'Village Walk & Coral Sandbar Snorkelling',
+          aDesc: 'Meet Run’s welcoming coastal community, inspect colonial-era remnants, and snorkel in crystalline coral gardens teeming with reef fish.',
+          eTitle: 'Return Under Trade-Wind Skies',
+          eDesc: 'Cruise back toward the silhouette of Mount Api at dusk for a relaxed waterfront supper in Neira town.'
+        },
+        4: {
+          badge: 'Day 04 • Volcanic Heights & Marine Gardens',
+          heading: 'Mount Api Sunrise & Lava-Flow Reefs',
+          logistics: 'Logistics: Licensed Mountain & Marine Guide',
+          mTitle: 'Optional Dawn Ascent of Mount Api',
+          mDesc: 'For adventure seekers, embark on an early guided climb up Mount Api’s volcanic slopes for panoramic views across the entire Banda archipelago.',
+          aTitle: 'Snorkelling & Diving at Lava Flow Reef',
+          aDesc: 'Glide over vibrant table corals growing atop Mount Api’s 1988 basalt lava flow—one of Maluku’s most celebrated underwater sights.',
+          eTitle: 'Farewell Reflection & Souvenir Dispatch',
+          eDesc: 'Collect locally crafted nutmeg spices and "Gems in Banda Neira" keepsakes before preparing for your onward connection to Ambon.'
+        }
+      };
+
+      document.querySelectorAll('.day-tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+          const dayNum = tab.getAttribute('data-day');
+          const d = itineraryDays[dayNum];
+          if (!d) return;
+
+          document.querySelectorAll('.day-tab').forEach(t => {
+            t.classList.remove('border-navy', 'bg-navy', 'text-parchment', 'shadow-md');
+            t.classList.add('border-navy/15', 'bg-parchment', 'text-navy');
+          });
+          tab.classList.remove('border-navy/15', 'bg-parchment', 'text-navy');
+          tab.classList.add('border-navy', 'bg-navy', 'text-parchment', 'shadow-md');
+
+          document.getElementById('day-badge').textContent = d.badge;
+          document.getElementById('day-heading').textContent = d.heading;
+          document.getElementById('day-logistics').textContent = d.logistics;
+          document.getElementById('day-morning-title').textContent = d.mTitle;
+          document.getElementById('day-morning-desc').textContent = d.mDesc;
+          document.getElementById('day-afternoon-title').textContent = d.aTitle;
+          document.getElementById('day-afternoon-desc').textContent = d.aDesc;
+          document.getElementById('day-evening-title').textContent = d.eTitle;
+          document.getElementById('day-evening-desc').textContent = d.eDesc;
+        });
+      });
+
+      // 9. Package Selection -> Smooth Scroll & Auto-Select Tier in Form
+      document.querySelectorAll('.select-tier-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const tierValue = btn.getAttribute('data-tier');
+          const tierSelect = document.getElementById('journeyTier');
+          tierSelect.value = tierValue;
+
+          document.getElementById('enquiry').scrollIntoView({ behavior: 'smooth' });
+          tierSelect.classList.add('ring-4', 'ring-ochre');
+          setTimeout(() => tierSelect.classList.remove('ring-4', 'ring-ochre'), 1800);
+          showToast(`Selected: ${tierValue}`);
+        });
+      });
+
+      // 10. Copy Campaign Hashtags (using safe execCommand fallback for iFrame environments)
+      document.getElementById('copy-hashtags-btn').addEventListener('click', () => {
+        const text = document.getElementById('campaign-hashtags').textContent.trim();
+        const tempInput = document.createElement('textarea');
+        tempInput.value = text;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        try {
+          document.execCommand('copy');
+          showToast('Campaign hashtags copied to clipboard!');
+        } catch (err) {
+          showToast('Hashtags ready to share: #BandaNeira #TrulyAsia2026');
+        }
+        document.body.removeChild(tempInput);
+      });
+
+      // 11. Campaign Collateral Modal
+      const campaignKitModal = document.getElementById('campaign-kit-modal');
+      document.getElementById('open-campaign-kit-btn').addEventListener('click', () => {
+        campaignKitModal.classList.remove('hidden');
+        campaignKitModal.classList.add('flex');
+      });
+      document.getElementById('close-campaign-kit').addEventListener('click', () => {
+        campaignKitModal.classList.add('hidden');
+        campaignKitModal.classList.remove('flex');
+      });
+      campaignKitModal.addEventListener('click', (e) => {
+        if (e.target === campaignKitModal) {
+          campaignKitModal.classList.add('hidden');
+          campaignKitModal.classList.remove('flex');
+        }
+      });
+
+      // 12. Trip Enquiry Form Submission -> Gold-Bordered Expedition Dossier Confirmation
+      const enquiryForm = document.getElementById('trip-enquiry-form');
+      const enquiryConfirmation = document.getElementById('enquiry-confirmation');
+
+      enquiryForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const fullName = document.getElementById('fullName').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const city = document.getElementById('departureCity').value;
+        const month = document.getElementById('travelMonth').value;
+        const tier = document.getElementById('journeyTier').value;
+
+        const randomRef = 'BN-2026-' + Math.floor(1000 + Math.random() * 9000);
+
+        document.getElementById('dossier-ref').textContent = `REF: ${randomRef}`;
+        document.getElementById('confirm-name').textContent = fullName;
+        document.getElementById('confirm-email').textContent = email;
+        document.getElementById('confirm-city').textContent = city;
+        document.getElementById('confirm-month').textContent = month;
+        document.getElementById('confirm-tier').textContent = tier;
+
+        enquiryForm.classList.add('hidden');
+        enquiryConfirmation.classList.remove('hidden');
+        showToast('Expedition Dossier generated! Check your confirmation summary.');
+      });
+
+      document.getElementById('reset-enquiry-btn').addEventListener('click', () => {
+        enquiryConfirmation.classList.add('hidden');
+        enquiryForm.classList.remove('hidden');
+      });
+    });
+  </script>
+</body>
+
+</html>
